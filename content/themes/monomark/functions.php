@@ -4,7 +4,6 @@
  * @subpackage HTML5_Boilerplate
  */
 
-
 /*
  * General theme configuration settings
  */
@@ -14,6 +13,9 @@ add_theme_support( 'post-thumbnails' );
 
 // Add support for automatic RSS feed links
 add_theme_support( 'automatic-feed-links' );
+
+// Includes
+require_once('includes/enqueue-scripts.php');
 
 /**
  * Remove unused items from Admin
@@ -129,35 +131,4 @@ function exclude_protected_action($query) {
 
 // Action to queue the filter at the right time
 add_action('pre_get_posts', 'exclude_protected_action');
-
-/**
- * External scripts
- */
-
-function enqueue_theme_scripts() {
-  // Unregister standard jQuery and reregister as google code.
-  wp_deregister_script('jquery');
-  wp_register_script( 'jquery', 'http://code.jquery.com/jquery-latest.min.js', null, '1.8.3', true );
-	wp_enqueue_script( 'jquery' );
-	
-	if( WP_DEBUG ):
-		// Plugins
-		// For example:
-		// wp_enqueue_script( 'infinitescroll', get_template_directory_uri() . '/js/jquery-infinitescroll.min.js', array('jquery'), false, true );
-		
-		// Classes
-		// For example:
-		// wp_enqueue_script( 'main-nav', get_template_directory_uri() . '/js/main-nav.js', array('jquery'), false, true );
-		
-		// Pages, Formats, Elements etc.
-		// Scripts for pages, elements etc.
-		// wp_enqueue_script( 'application', get_template_directory_uri() . '/js/application.js', array('jquery'), false, true	);
- 	else:
-		// All concatenated and compressed JS in one file:
-		// wp_enqueue_script( 'application', get_template_directory_uri() . '/js/application.min.js', array('jquery'), false, true	);
- 	endif;
-}
-
-add_action('wp_enqueue_scripts', 'enqueue_theme_scripts');
-
 ?>
