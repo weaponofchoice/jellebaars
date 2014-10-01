@@ -3,6 +3,16 @@
  * @package WordPress
  * @subpackage HTML5_Boilerplate
  */
+// Renaming some wordpress admin menu items
+add_filter( 'gettext', 'admin_custom_posts' );
+add_filter( 'ngettext', 'admin_custom_posts' );
+
+function admin_custom_posts( $translated ) 
+{  
+    $translated = str_replace( 'Post', 'Case', $translated );
+    $translated = str_replace( 'post', 'case', $translated );
+    return $translated;
+}
 
 /*
  * General theme configuration settings

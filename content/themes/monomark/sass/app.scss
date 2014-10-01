@@ -1,0 +1,10 @@
+// General stylesheets, colors, fonts, typography rules, mixins etc.
+@import
+	"base/_mixins",
+	"base/_colors",
+	"base/_typography";
+
+// Layout
+@import
+	"layout/_header",
+	"layout/_footer";
