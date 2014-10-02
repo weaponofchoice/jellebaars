@@ -26,6 +26,7 @@ add_theme_support( 'automatic-feed-links' );
 
 // Includes
 require_once('includes/enqueue-scripts.php');
+require_once('includes/custom-admin.php');
 
 /**
  * Remove unused items from Admin
