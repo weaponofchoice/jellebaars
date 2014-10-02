@@ -19,7 +19,9 @@
 
 <body <?php body_class(); ?> id="<?php echo the_title(); ?>">
 	<div id="container">
-    test
     <?php
-    echo the_field('header_text', 'option'); 
+    if( is_front_page() ){
+      echo the_field('header_text', 'option'); 
+      echo the_field('header_text_2', 'option');
+    }
     ?>
