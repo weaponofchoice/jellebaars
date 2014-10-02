@@ -19,3 +19,7 @@
 
 <body <?php body_class(); ?> id="<?php echo the_title(); ?>">
 	<div id="container">
+    test
+    <?php
+    echo the_field('header_text', 'option'); 
+    ?>
