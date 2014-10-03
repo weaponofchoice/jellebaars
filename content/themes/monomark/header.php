@@ -19,9 +19,15 @@
 
 <body <?php body_class(); ?> id="<?php echo the_title(); ?>">
 	<div id="container">
+    <!-- <div>
     <?php
     if( is_front_page() ){
-      echo the_field('header_text', 'option'); 
+      echo the_field('header_text', 'option');
       echo the_field('header_text_2', 'option');
     }
     ?>
+  </div> -->
+  <header>
+    <img src="<?php bloginfo('template_directory'); ?>/img/logo.svg">
+    <a class="hamburger"></a>
+  </header>
