@@ -19,6 +19,12 @@
 
 <body <?php body_class(); ?> id="<?php echo the_title(); ?>">
 	<div id="container">
+    <div class="grid">
+      <div class="medium-1 columns"><div></div></div>
+      <div class="medium-1 columns"><div></div></div>
+      <div class="medium-1 columns"><div></div></div>
+    </div>
+    
     <!-- <div>
     <?php
     if( is_front_page() ){

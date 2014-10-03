@@ -1,3 +1,8 @@
+// Frameworks
+@import
+  "layout/foundation/_settings",
+  "layout/foundation/_foundation";
+
 // General stylesheets, colors, fonts, typography rules, mixins etc.
 @import
 	"base/_mixins",
@@ -6,5 +11,7 @@
 
 // Layout
 @import
+  "layout/_grid",
+
 	"layout/_header",
 	"layout/_footer";

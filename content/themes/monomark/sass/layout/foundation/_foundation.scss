@@ -1,0 +1,37 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// Behold, here are all the Foundation components. Remove all compononent that you do not need!
+@import
+  "components/_accordion",
+  "components/_alert-boxes",
+  "components/_block-grid",
+  "components/_breadcrumbs",
+  "components/_clearing",
+  "components/_dropdown",
+  "components/_dropdown-buttons",
+  "components/_flex-video",
+  "components/_forms",
+  "components/_grid",
+  "components/_inline-lists",
+  "components/_joyride",
+  "components/_keystrokes",
+  "components/_magellan",
+  "components/_orbit",
+  "components/_pagination",
+  "components/_panels",
+  "components/_pricing-tables",
+  "components/_progress-bars",
+  "components/_reveal",
+  "components/_side-nav",
+  "components/_split-buttons",
+  "components/_sub-nav",
+  "components/_switch",
+  "components/_tables",
+  "components/_tabs",
+  "components/_thumbs",
+  "components/_tooltips",
+  "components/_top-bar",
+  "components/_type",
+  "components/_offcanvas",
+  "components/_visibility";
