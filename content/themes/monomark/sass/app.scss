@@ -5,13 +5,14 @@
 
 // General stylesheets, colors, fonts, typography rules, mixins etc.
 @import
-	"base/_mixins",
-	"base/_colors",
-	"base/_typography";
+  "base/_mixins",
+  "base/_colors",
+  "base/_reset",
+  "base/_typography";
 
 // Layout
 @import
   "layout/_grid",
-
-	"layout/_header",
-	"layout/_footer";
+  "layout/_container",
+  "layout/_header",
+  "layout/_footer";
