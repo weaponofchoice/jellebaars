@@ -20,10 +20,34 @@ if( $featured ):
       $link = get_permalink($post);
     }
     
+    // Loop into 'gallery or image'
+    if( get_field('gallery_or_image') == 'Image' ){
+      $image_home = get_field('image_home')['sizes']['large'];
+    }
+    
     setup_postdata( $post );
     ?>
     
     <div class="case case-featured">
+      <div class="gallery">
+        <?php
+        if( get_field('gallery_or_image') == 'Gallery' ){
+          $images = get_field('gallery_home');
+      
+          if( $images ):
+            foreach( $images as $image ):
+              $image_gallery_home = $image['sizes']['large']; ?>
+            
+              <img src="<?php echo $image_gallery_home; ?>">
+            
+              <?php
+            endforeach;
+          endif;
+          
+        }
+        ?>
+      </div>
+      <img src="<?php echo $image_home; ?>">
       <p>TYPE: <?php echo $type; ?></p>
       <p>TITLE: <?php echo $title; ?></p>
       <p>TEXT: <?php echo $text; ?></p>
