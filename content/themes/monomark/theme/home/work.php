@@ -1,8 +1,8 @@
 <?php
-$featured = get_field('case_featured');
+$cases = get_field('case_recent');
 
-if( $featured ):
-  foreach( $featured as $post ):
+if( $cases ):
+  foreach( $cases as $post ):
     
     $type = get_field('type_home');
     $text = get_field('text_home');
@@ -22,7 +22,7 @@ if( $featured ):
     
     // Loop into 'gallery or image'
     if( get_field('gallery_or_image') == 'Image' ){
-      $image_home = get_field('image_home')['sizes']['large'];
+      $image_home = get_field('image_home')['sizes']['thumbnail'];
     }
     
     setup_postdata( $post );
@@ -30,28 +30,8 @@ if( $featured ):
     
     <div class="case case-featured">
       <p>TYPE: <?php echo $type; ?></p>
-      <div class="gallery">
-        <?php
-        if( get_field('gallery_or_image') == 'Gallery' ){
-          $images = get_field('gallery_home');
-      
-          if( $images ):
-            foreach( $images as $image ):
-              $image_gallery_home = $image['sizes']['large']; ?>
-            
-              <img src="<?php echo $image_gallery_home; ?>">
-            
-              <?php
-            endforeach;
-          endif;
-          
-        }
-        ?>
-      </div>
       <img src="<?php echo $image_home; ?>">
       <p>TITLE: <?php echo $title; ?></p>
-      <p>TEXT: <?php echo $text; ?></p>
-      <p>LINK: <?php echo $link; ?></p>
       <a href="<?php echo $link; ?>">LINK TEXT: <?php echo $link_text; ?></a>
     </div>
   
@@ -59,4 +39,4 @@ if( $featured ):
     wp_reset_postdata();
   endforeach;
 endif;
-  ?>
+?>

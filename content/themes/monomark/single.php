@@ -23,7 +23,7 @@ if( have_posts() ):
   
   ?>
   
-  <!-- <img src="<?php echo $image_single; ?>"> -->
+  <img src="<?php echo $image_single; ?>">
   <h2><?php echo $title_single; ?></h2>
   <p>TEXT LARGE: <?php echo $text_large_single; ?></p>
   <p>TEXT SMALL: <?php echo $text_small_single; ?></p>
