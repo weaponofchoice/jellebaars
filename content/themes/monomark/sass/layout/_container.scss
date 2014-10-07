@@ -1,4 +1,6 @@
 #container{
+  height: auto;
+  overflow: hidden;
   padding-top: rem-calc(50);
   background: $white;
 }

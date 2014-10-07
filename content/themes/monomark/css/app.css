@@ -16837,6 +16837,8 @@ a:hover {
 
 /* line 1, ../sass/layout/_container.scss */
 #container {
+  height: auto;
+  overflow: hidden;
   padding-top: 3.125rem;
   background: white;
 }
@@ -16845,4 +16847,14 @@ a:hover {
 header {
   width: 100%;
   background: gold;
+}
+
+/* line 1, ../sass/modules/_case.scss */
+.case {
+  margin-bottom: 3.125rem;
+  text-align: center;
+}
+/* line 6, ../sass/modules/_case.scss */
+.case p {
+  margin-bottom: 1.875rem;
 }

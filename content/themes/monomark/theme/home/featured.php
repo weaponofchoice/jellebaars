@@ -24,7 +24,7 @@ if( $featured ):
     ?>
     
     <div class="case case-featured">
-      <p class="text-center margin-b30">TYPE: <?php echo $type; ?></p>
+      <p>TYPE: <?php echo $type; ?></p>
       <div class="gallery">
         <?php
         if( get_field('gallery_or_image') == 'Gallery' ){

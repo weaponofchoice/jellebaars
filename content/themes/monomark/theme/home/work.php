@@ -1,3 +1,4 @@
+<ul class="medium-block-grid-3">
 <?php
 $cases = get_field('case_recent');
 
@@ -28,15 +29,16 @@ if( $cases ):
     setup_postdata( $post );
     ?>
     
-    <div class="case case-featured">
+    <li class="case case-small">
       <p>TYPE: <?php echo $type; ?></p>
       <img src="<?php echo $image_home; ?>">
       <p>TITLE: <?php echo $title; ?></p>
       <a href="<?php echo $link; ?>">LINK TEXT: <?php echo $link_text; ?></a>
-    </div>
+    </li>
   
     <?php
     wp_reset_postdata();
   endforeach;
 endif;
 ?>
+</ul>

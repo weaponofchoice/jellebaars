@@ -1,0 +1,9 @@
+.case{
+  margin-bottom: rem-calc(50);
+  text-align: center;
+  
+  // type of post(example: 'recent work')
+  p{
+    margin-bottom: rem-calc(30);
+  }
+}
