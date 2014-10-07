@@ -897,7 +897,7 @@ select {
 [class*="block-grid-"] {
   display: block;
   padding: 0;
-  margin: 0 -0.625rem;
+  margin: 0 -1.5625rem;
   *zoom: 1;
 }
 /* line 165, ../sass/layout/foundation/components/_global.scss */
@@ -914,14 +914,14 @@ select {
   display: inline;
   height: auto;
   float: left;
-  padding: 0 0.625rem 1.25rem;
+  padding: 0 1.5625rem 3.125rem;
 }
 
 @media only screen {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-1 > li {
     width: 100%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-1 > li:nth-of-type(n) {
@@ -935,7 +935,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-2 > li {
     width: 50%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-2 > li:nth-of-type(n) {
@@ -949,7 +949,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-3 > li {
     width: 33.33333%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-3 > li:nth-of-type(n) {
@@ -963,7 +963,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-4 > li {
     width: 25%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-4 > li:nth-of-type(n) {
@@ -977,7 +977,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-5 > li {
     width: 20%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-5 > li:nth-of-type(n) {
@@ -991,7 +991,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-6 > li {
     width: 16.66667%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-6 > li:nth-of-type(n) {
@@ -1005,7 +1005,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-7 > li {
     width: 14.28571%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-7 > li:nth-of-type(n) {
@@ -1019,7 +1019,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-8 > li {
     width: 12.5%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-8 > li:nth-of-type(n) {
@@ -1033,7 +1033,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-9 > li {
     width: 11.11111%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-9 > li:nth-of-type(n) {
@@ -1047,7 +1047,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-10 > li {
     width: 10%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-10 > li:nth-of-type(n) {
@@ -1061,7 +1061,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-11 > li {
     width: 9.09091%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-11 > li:nth-of-type(n) {
@@ -1075,7 +1075,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-12 > li {
     width: 8.33333%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .small-block-grid-12 > li:nth-of-type(n) {
@@ -1090,7 +1090,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-1 > li {
     width: 100%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-1 > li:nth-of-type(n) {
@@ -1104,7 +1104,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-2 > li {
     width: 50%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-2 > li:nth-of-type(n) {
@@ -1118,7 +1118,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-3 > li {
     width: 33.33333%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-3 > li:nth-of-type(n) {
@@ -1132,7 +1132,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-4 > li {
     width: 25%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-4 > li:nth-of-type(n) {
@@ -1146,7 +1146,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-5 > li {
     width: 20%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-5 > li:nth-of-type(n) {
@@ -1160,7 +1160,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-6 > li {
     width: 16.66667%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-6 > li:nth-of-type(n) {
@@ -1174,7 +1174,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-7 > li {
     width: 14.28571%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-7 > li:nth-of-type(n) {
@@ -1188,7 +1188,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-8 > li {
     width: 12.5%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-8 > li:nth-of-type(n) {
@@ -1202,7 +1202,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-9 > li {
     width: 11.11111%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-9 > li:nth-of-type(n) {
@@ -1216,7 +1216,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-10 > li {
     width: 10%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-10 > li:nth-of-type(n) {
@@ -1230,7 +1230,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-11 > li {
     width: 9.09091%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-11 > li:nth-of-type(n) {
@@ -1244,7 +1244,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-12 > li {
     width: 8.33333%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-12 > li:nth-of-type(n) {
@@ -1259,7 +1259,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-1 > li {
     width: 100%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-1 > li:nth-of-type(n) {
@@ -1273,7 +1273,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-2 > li {
     width: 50%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-2 > li:nth-of-type(n) {
@@ -1287,7 +1287,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-3 > li {
     width: 33.33333%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-3 > li:nth-of-type(n) {
@@ -1301,7 +1301,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-4 > li {
     width: 25%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-4 > li:nth-of-type(n) {
@@ -1315,7 +1315,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-5 > li {
     width: 20%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-5 > li:nth-of-type(n) {
@@ -1329,7 +1329,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-6 > li {
     width: 16.66667%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-6 > li:nth-of-type(n) {
@@ -1343,7 +1343,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-7 > li {
     width: 14.28571%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-7 > li:nth-of-type(n) {
@@ -1357,7 +1357,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-8 > li {
     width: 12.5%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-8 > li:nth-of-type(n) {
@@ -1371,7 +1371,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-9 > li {
     width: 11.11111%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-9 > li:nth-of-type(n) {
@@ -1385,7 +1385,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-10 > li {
     width: 10%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-10 > li:nth-of-type(n) {
@@ -1399,7 +1399,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-11 > li {
     width: 9.09091%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-11 > li:nth-of-type(n) {
@@ -1413,7 +1413,7 @@ select {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-12 > li {
     width: 8.33333%;
-    padding: 0 0.625rem 1.25rem;
+    padding: 0 1.5625rem 3.125rem;
   }
   /* line 48, ../sass/layout/foundation/components/_block-grid.scss */
   .large-block-grid-12 > li:nth-of-type(n) {
@@ -16718,67 +16718,66 @@ a 		  = 15px walsheim
 /* line 11, ../sass/base/typo/_typography.scss */
 *, h1, h2, h3, p, a {
   font-size: 1rem;
-  margin: 0;
   color: black;
 }
-/* line 20, ../sass/base/typo/_typography.scss */
+/* line 19, ../sass/base/typo/_typography.scss */
 .italic {
   font-style: italic;
 }
-/* line 24, ../sass/base/typo/_typography.scss */
+/* line 23, ../sass/base/typo/_typography.scss */
 .bold {
   font-weight: 600;
 }
-/* line 28, ../sass/base/typo/_typography.scss */
+/* line 27, ../sass/base/typo/_typography.scss */
 .underlined {
   text-decoration: underline;
 }
-/* line 32, ../sass/base/typo/_typography.scss */
+/* line 31, ../sass/base/typo/_typography.scss */
 .allcaps {
   text-transform: uppercase;
 }
-/* line 36, ../sass/base/typo/_typography.scss */
+/* line 35, ../sass/base/typo/_typography.scss */
 .lowercase {
   text-transform: lowercase;
 }
-/* line 40, ../sass/base/typo/_typography.scss */
+/* line 39, ../sass/base/typo/_typography.scss */
 .capitalize {
   text-transform: capitalize;
 }
-/* line 44, ../sass/base/typo/_typography.scss */
+/* line 43, ../sass/base/typo/_typography.scss */
 .text-center {
   text-align: center;
 }
-/* line 48, ../sass/base/typo/_typography.scss */
+/* line 47, ../sass/base/typo/_typography.scss */
 .text-left {
   text-align: left;
 }
-/* line 52, ../sass/base/typo/_typography.scss */
+/* line 51, ../sass/base/typo/_typography.scss */
 .text-right {
   text-align: right;
 }
-/* line 56, ../sass/base/typo/_typography.scss */
+/* line 55, ../sass/base/typo/_typography.scss */
 .text-grey {
   color: #969696;
 }
-/* line 60, ../sass/base/typo/_typography.scss */
+/* line 59, ../sass/base/typo/_typography.scss */
 .text-grey:hover, .text-grey:active {
   color: #969696;
 }
 
-/* line 70, ../sass/base/typo/_typography.scss */
+/* line 69, ../sass/base/typo/_typography.scss */
 h1 {
   font-size: 2.5rem;
   line-height: 1.1;
 }
 
-/* line 78, ../sass/base/typo/_typography.scss */
+/* line 77, ../sass/base/typo/_typography.scss */
 h2 {
   font-size: 1.5rem;
   line-height: 1.1;
 }
 
-/* line 86, ../sass/base/typo/_typography.scss */
+/* line 85, ../sass/base/typo/_typography.scss */
 h3 {
   font-size: 1.125rem;
   font-weight: 800;
@@ -16787,25 +16786,25 @@ h3 {
   line-height: 1.2;
 }
 
-/* line 97, ../sass/base/typo/_typography.scss */
+/* line 96, ../sass/base/typo/_typography.scss */
 p {
   font-size: 1rem;
 }
-/* line 104, ../sass/base/typo/_typography.scss */
+/* line 103, ../sass/base/typo/_typography.scss */
 p.reading {
   font-size: 1.25rem;
 }
-/* line 109, ../sass/base/typo/_typography.scss */
+/* line 108, ../sass/base/typo/_typography.scss */
 p.phrase {
   font-size: 0.9375rem;
   line-height: 1.1;
 }
 
-/* line 117, ../sass/base/typo/_typography.scss */
+/* line 116, ../sass/base/typo/_typography.scss */
 a {
   font-size: 0.9375rem;
 }
-/* line 123, ../sass/base/typo/_typography.scss */
+/* line 122, ../sass/base/typo/_typography.scss */
 a:hover {
   color: black;
   text-decoration: underline;
@@ -16854,7 +16853,24 @@ header {
   margin-bottom: 3.125rem;
   text-align: center;
 }
-/* line 6, ../sass/modules/_case.scss */
-.case p {
+/* line 5, ../sass/modules/_case.scss */
+.case.case-featured {
+  margin-bottom: 6.25rem;
+}
+/* line 9, ../sass/modules/_case.scss */
+.case img {
+  min-width: 100%;
+}
+/* line 13, ../sass/modules/_case.scss */
+.case .thumb, .case .gallery {
   margin-bottom: 1.875rem;
+}
+/* line 18, ../sass/modules/_case.scss */
+.case > p {
+  margin-bottom: 1.875rem;
+}
+/* line 22, ../sass/modules/_case.scss */
+.case .case-info {
+  max-width: 34.375rem;
+  margin: auto;
 }

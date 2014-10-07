@@ -2,8 +2,35 @@
   margin-bottom: rem-calc(50);
   text-align: center;
   
-  // type of post(example: 'recent work')
-  p{
+  &.case-featured{
+    margin-bottom: rem-calc(100);
+  }
+  
+  img{
+    min-width: 100%; // TEMPORARY!
+  }
+  
+  .thumb, .gallery{
     margin-bottom: rem-calc(30);
+  }
+  
+  // type of post(example: 'recent work')
+  > p{
+    margin-bottom: rem-calc(30);
+  }
+  
+  .case-info{
+    max-width: rem-calc(550);
+    margin: auto;
+    
+    p{
+      &:nth-child(1){
+        
+      }
+      
+      &:nth-child(2){
+        
+      }
+    }
   }
 }

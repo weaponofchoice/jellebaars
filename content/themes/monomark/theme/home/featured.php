@@ -24,7 +24,7 @@ if( $featured ):
     ?>
     
     <div class="case case-featured">
-      <p>TYPE: <?php echo $type; ?></p>
+      <p><?php echo $type; ?></p>
       <div class="gallery">
         <?php
         if( get_field('gallery_or_image') == 'Gallery' ){
@@ -43,10 +43,11 @@ if( $featured ):
         }
         ?>
       </div>
-      <p>TITLE: <?php echo $title; ?></p>
-      <p>TEXT: <?php echo $text; ?></p>
-      <p>LINK: <?php echo $link; ?></p>
-      <a href="<?php echo $link; ?>">LINK TEXT: <?php echo $link_text; ?></a>
+      <div class="case-info">
+        <p><?php echo $title; ?></p>
+        <p><?php echo $text; ?></p>
+        <a href="<?php echo $link; ?>"><?php echo $link_text; ?></a>
+      </div>
     </div>
   
     <?php

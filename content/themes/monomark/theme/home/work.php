@@ -30,10 +30,12 @@ if( $cases ):
     ?>
     
     <li class="case case-small">
-      <p>TYPE: <?php echo $type; ?></p>
-      <img src="<?php echo $image_home; ?>">
-      <p>TITLE: <?php echo $title; ?></p>
-      <a href="<?php echo $link; ?>">LINK TEXT: <?php echo $link_text; ?></a>
+      <p><?php echo $type; ?></p>
+      <img class="thumb" src="<?php echo $image_home; ?>">
+      <div class="case-info">
+        <p class="title"><?php echo $title; ?></p>
+        <a href="<?php echo $link; ?>"><?php echo $link_text; ?></a>
+      </div>
     </li>
   
     <?php
