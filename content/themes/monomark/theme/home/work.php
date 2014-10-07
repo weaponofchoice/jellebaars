@@ -33,7 +33,7 @@ if( $cases ):
       <p><?php echo $type; ?></p>
       <img class="thumb" src="<?php echo $image_home; ?>">
       <div class="case-info">
-        <p class="title"><?php echo $title; ?></p>
+        <h3 class="title"><?php echo $title; ?></h3>
         <a href="<?php echo $link; ?>"><?php echo $link_text; ?></a>
       </div>
     </li>

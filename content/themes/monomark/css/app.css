@@ -16717,8 +16717,15 @@ a 		  = 15px walsheim
 */
 /* line 11, ../sass/base/typo/_typography.scss */
 *, h1, h2, h3, p, a {
-  font-size: 1rem;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9375rem;
   color: black;
+}
+/* line 17, ../sass/base/typo/_fonts.scss */
+.bold {
+  font-weight: 700;
 }
 /* line 19, ../sass/base/typo/_typography.scss */
 .italic {
@@ -16767,47 +16774,62 @@ a 		  = 15px walsheim
 
 /* line 69, ../sass/base/typo/_typography.scss */
 h1 {
+  font-family: 'Chronicle Display A', 'Chronicle Display B';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.4375rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+/* line 7, ../sass/base/typo/_fonts.scss */
+h1.bold {
+  font-weight: 700;
+}
+
+/* line 78, ../sass/base/typo/_typography.scss */
+h2 {
+  font-family: 'Chronicle Display A', 'Chronicle Display B';
+  font-weight: 400;
+  font-style: normal;
   font-size: 2.5rem;
   line-height: 1.1;
 }
+/* line 7, ../sass/base/typo/_fonts.scss */
+h2.bold {
+  font-weight: 700;
+}
 
-/* line 77, ../sass/base/typo/_typography.scss */
-h2 {
-  font-size: 1.5rem;
+/* line 86, ../sass/base/typo/_typography.scss */
+h3 {
+  font-family: 'Chronicle Display A', 'Chronicle Display B';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.875rem;
+  font-weight: 700;
   line-height: 1.1;
 }
-
-/* line 85, ../sass/base/typo/_typography.scss */
-h3 {
-  font-size: 1.125rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.125rem;
-  line-height: 1.2;
+/* line 7, ../sass/base/typo/_fonts.scss */
+h3.bold {
+  font-weight: 700;
 }
 
-/* line 96, ../sass/base/typo/_typography.scss */
+/* line 95, ../sass/base/typo/_typography.scss */
 p {
-  font-size: 1rem;
+  font-size: 0.9375rem;
 }
-/* line 103, ../sass/base/typo/_typography.scss */
+/* line 101, ../sass/base/typo/_typography.scss */
 p.reading {
   font-size: 1.25rem;
 }
-/* line 108, ../sass/base/typo/_typography.scss */
-p.phrase {
-  font-size: 0.9375rem;
-  line-height: 1.1;
-}
 
-/* line 116, ../sass/base/typo/_typography.scss */
+/* line 106, ../sass/base/typo/_typography.scss */
 a {
   font-size: 0.9375rem;
+  text-decoration: underline;
 }
-/* line 122, ../sass/base/typo/_typography.scss */
+/* line 112, ../sass/base/typo/_typography.scss */
 a:hover {
   color: black;
-  text-decoration: underline;
 }
 
 /* line 1, ../sass/layout/_grid.scss */

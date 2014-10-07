@@ -44,7 +44,7 @@ if( $featured ):
         ?>
       </div>
       <div class="case-info">
-        <p><?php echo $title; ?></p>
+        <h3><?php echo $title; ?></h3>
         <p><?php echo $text; ?></p>
         <a href="<?php echo $link; ?>"><?php echo $link_text; ?></a>
       </div>
