@@ -6107,31 +6107,33 @@ ul, ol, dl {
 }
 
 /* line 1, ../sass/layout/_grid.scss */
-body {
-  margin: 0;
-}
-
-/* line 5, ../sass/layout/_grid.scss */
 .grid {
   width: 100%;
   height: 100%;
   position: absolute;
+  display: none;
 }
-/* line 10, ../sass/layout/_grid.scss */
+/* line 7, ../sass/layout/_grid.scss */
 .grid div {
   height: 100%;
 }
-/* line 13, ../sass/layout/_grid.scss */
+/* line 10, ../sass/layout/_grid.scss */
 .grid div div {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
 }
 
-/* line 1, ../sass/layout/_container.scss */
-#container {
+/* line 1, ../sass/layout/_structure.scss */
+#container, header {
   padding-left: 4.375rem;
   padding-right: 4.375rem;
+}
+
+/* line 1, ../sass/layout/_container.scss */
+#container {
+  padding-top: 3.125rem;
+  background: white;
 }
 
 /* line 1, ../sass/layout/_header.scss */
