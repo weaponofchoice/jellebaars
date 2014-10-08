@@ -21,9 +21,27 @@
 
 <body <?php body_class(); ?> id="<?php echo the_title(); ?>">
   <header>
-    <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo.svg"></a>
+    <a class="logo logo-black" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo-black.svg"></a>
+    <a class="logo logo-white" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo-white.svg"></a>
     <a class="hamburger"><div></div></a>
+    <a class="closer"><div></div><div></div></a>
   </header>
+  
+  <nav>
+    <?php
+
+    $nav = array(
+      'theme_location'  => 'main_menu',
+      'container_class' => '',
+      'link_before'     => '<h2>',
+      'link_after'      => '</h2>',
+      'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>'
+    );
+
+    wp_nav_menu( $nav );
+
+    ?>
+  </nav>
   
   <?php
   if( is_front_page() ){

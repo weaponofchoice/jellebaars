@@ -1,0 +1,17 @@
+nav{
+  position: fixed;
+  z-index: $zIndex-nav;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  padding: 100px 70px;
+  
+  opacity: 0;
+  visibility: hidden;
+  
+  &.menu-active{
+    opacity: 1;
+    visibility: visible;
+  }
+}

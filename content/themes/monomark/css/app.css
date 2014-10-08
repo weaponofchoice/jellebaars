@@ -16885,6 +16885,19 @@ header {
 header.stick {
   position: fixed;
 }
+/* line 12, ../sass/layout/_header.scss */
+header.menu-active {
+  z-index: 1001;
+  background: transparent;
+}
+/* line 16, ../sass/layout/_header.scss */
+header.menu-active .hamburger {
+  visibility: hidden;
+}
+/* line 20, ../sass/layout/_header.scss */
+header.menu-active .closer {
+  visibility: visible;
+}
 
 /* line 1, ../sass/layout/_footer.scss */
 footer {
@@ -16931,84 +16944,6 @@ article {
   max-width: 43.75rem;
 }
 
-/* line 1, ../sass/modules/_hamburger.scss */
-.hamburger {
-  width: 2rem;
-  height: 2rem;
-  position: absolute;
-  right: 4.375rem;
-}
-/* line 7, ../sass/modules/_hamburger.scss */
-.hamburger * {
-  cursor: pointer;
-}
-/* line 11, ../sass/modules/_hamburger.scss */
-.hamburger div {
-  width: 100%;
-  height: 5px;
-  top: 13.5px;
-  position: absolute;
-  background: #222222;
-}
-/* line 19, ../sass/modules/_hamburger.scss */
-.hamburger div:before, .hamburger div:after {
-  content: "";
-  width: 32px;
-  height: 5px;
-  background: #222222;
-  position: absolute;
-}
-/* line 27, ../sass/modules/_hamburger.scss */
-.hamburger div:before {
-  top: -0.75rem;
-}
-/* line 31, ../sass/modules/_hamburger.scss */
-.hamburger div:after {
-  bottom: -0.75rem;
-}
-
-/* line 37, ../sass/modules/_hamburger.scss */
-.hamburger {
-  opacity: 0;
-  visibility: hidden;
-  -moz-transform: translate3d(5px, 0, 0);
-  -o-transform: translate3d(5px, 0, 0);
-  -ms-transform: translate3d(5px, 0, 0);
-  -webkit-transform: translate3d(5px, 0, 0);
-  transform: translate3d(5px, 0, 0);
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
-}
-/* line 43, ../sass/modules/_hamburger.scss */
-.hamburger.show {
-  opacity: 1;
-  visibility: visible;
-  -moz-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
-}
-
-/* line 52, ../sass/modules/_hamburger.scss */
-.single .hamburger {
-  opacity: 1;
-  visibility: visible;
-  -moz-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
 /* line 1, ../sass/modules/_case.scss */
 .case {
   margin-bottom: 3.125rem;
@@ -17039,6 +16974,153 @@ article {
 /* line 27, ../sass/modules/_case.scss */
 .case .case-info * {
   margin-bottom: 0.8125rem;
+}
+
+/* line 1, ../sass/modules/navigation/_nav.scss */
+nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 100px 70px;
+  opacity: 0;
+  visibility: hidden;
+}
+/* line 13, ../sass/modules/navigation/_nav.scss */
+nav.menu-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 2, ../sass/modules/navigation/_logo.scss */
+header .logo-black {
+  display: inline;
+}
+/* line 6, ../sass/modules/navigation/_logo.scss */
+header .logo-white {
+  display: none;
+}
+/* line 11, ../sass/modules/navigation/_logo.scss */
+header.menu-active .logo-black {
+  display: none;
+}
+/* line 15, ../sass/modules/navigation/_logo.scss */
+header.menu-active .logo-white {
+  display: inline;
+}
+
+/* line 1, ../sass/modules/navigation/_hamburger.scss */
+.hamburger {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 4.375rem;
+}
+/* line 7, ../sass/modules/navigation/_hamburger.scss */
+.hamburger * {
+  cursor: pointer;
+}
+/* line 11, ../sass/modules/navigation/_hamburger.scss */
+.hamburger div {
+  width: 100%;
+  height: 5px;
+  top: 13.5px;
+  position: absolute;
+  background: #222222;
+}
+/* line 19, ../sass/modules/navigation/_hamburger.scss */
+.hamburger div:before, .hamburger div:after {
+  content: "";
+  width: 32px;
+  height: 5px;
+  background: #222222;
+  position: absolute;
+}
+/* line 27, ../sass/modules/navigation/_hamburger.scss */
+.hamburger div:before {
+  top: -0.75rem;
+}
+/* line 31, ../sass/modules/navigation/_hamburger.scss */
+.hamburger div:after {
+  bottom: -0.75rem;
+}
+
+/* line 37, ../sass/modules/navigation/_hamburger.scss */
+.hamburger {
+  opacity: 0;
+  visibility: hidden;
+  -moz-transform: translate3d(5px, 0, 0);
+  -o-transform: translate3d(5px, 0, 0);
+  -ms-transform: translate3d(5px, 0, 0);
+  -webkit-transform: translate3d(5px, 0, 0);
+  transform: translate3d(5px, 0, 0);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+/* line 43, ../sass/modules/navigation/_hamburger.scss */
+.hamburger.show {
+  opacity: 1;
+  visibility: visible;
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* line 52, ../sass/modules/navigation/_hamburger.scss */
+.single .hamburger {
+  opacity: 1;
+  visibility: visible;
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 1, ../sass/modules/navigation/_closer.scss */
+.closer {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 4.375rem;
+  visibility: hidden;
+}
+/* line 8, ../sass/modules/navigation/_closer.scss */
+.closer * {
+  cursor: pointer;
+}
+/* line 12, ../sass/modules/navigation/_closer.scss */
+.closer div {
+  width: 0.3125rem;
+  height: 100%;
+  right: 0.875rem;
+  position: absolute;
+  background: white;
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 20, ../sass/modules/navigation/_closer.scss */
+.closer div:nth-child(2) {
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 /* line 1, ../sass/pages/home/_home.scss */

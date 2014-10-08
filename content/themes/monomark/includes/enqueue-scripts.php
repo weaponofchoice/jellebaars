@@ -16,6 +16,7 @@ function enqueue_theme_scripts() {
     wp_enqueue_script( 'init-sticky', get_template_directory_uri() . '/js/init-sticky.js', 'sticky-kit', false, true );
     
     wp_enqueue_script( 'hamburger', get_template_directory_uri() . '/js/hamburger.js', 'jquery', false, true );
+    wp_enqueue_script( 'nav', get_template_directory_uri() . '/js/nav.js', 'jquery', false, true );
   else:
     // All concatenated and compressed JS in one file:
     wp_enqueue_script( 'app', get_template_directory_uri() . '/js/app.js', 'jquery', false, true );

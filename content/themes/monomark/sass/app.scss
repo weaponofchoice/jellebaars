@@ -26,8 +26,12 @@
 @import
   "modules/_fullwidth",
   "modules/_article",
-  "modules/_hamburger",
-  "modules/_case";
+  "modules/_case",
+  
+  "modules/navigation/_nav",
+  "modules/navigation/_logo",
+  "modules/navigation/_hamburger",
+  "modules/navigation/_closer";
   
 // Pages
 @import

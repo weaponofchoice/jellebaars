@@ -8,4 +8,17 @@ header{
   &.stick{
     position: fixed;
   }
+  
+  &.menu-active{
+    z-index: 1001;
+    background: transparent;
+      
+    .hamburger{
+      visibility: hidden;
+    }
+    
+    .closer{
+      visibility: visible;
+    }
+  }
 }
