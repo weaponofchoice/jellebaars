@@ -22,7 +22,7 @@
 <body <?php body_class(); ?> id="<?php echo the_title(); ?>">
   <header>
     <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo.svg"></a>
-    <a class="hamburger"></a>
+    <a class="hamburger"><div></div></a>
   </header>
   
   <?php
