@@ -25,6 +25,21 @@
     <a class="hamburger"></a>
   </header>
   
+  <?php
+  if( is_front_page() ){
+  ?>
+  <div class="header-info">
+    <div class="medium-1 medium-offset-1 columns">
+      <?php the_field('header_text', 'option'); ?>
+    </div>
+    <div class="medium-1 columns">
+      <?php the_field('header_text_2', 'option'); ?>
+    </div>
+  </div>
+    <?php
+  }
+    ?>
+  
   <div id="container">
     <div class="grid">
       <div class="medium-1 columns"><div></div></div>
