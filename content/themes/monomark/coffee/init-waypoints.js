@@ -1,1 +1,0 @@
-(function(){var t;$("html").length>0&&(t=$("header"),t.waypoint(function(n){return t.toggleClass("stick")}))}).call(this);

@@ -16867,6 +16867,7 @@ a:hover {
   height: auto;
   overflow: hidden;
   padding-top: 3.125rem;
+  z-index: 100;
   background: white;
 }
 
@@ -16875,9 +16876,10 @@ header {
   width: 100%;
   padding-top: 0.8125rem;
   padding-bottom: 0.8125rem;
+  z-index: 900;
   background: white;
 }
-/* line 7, ../sass/layout/_header.scss */
+/* line 8, ../sass/layout/_header.scss */
 header.stick {
   position: fixed;
 }
@@ -16952,8 +16954,9 @@ article {
 /* line 1, ../sass/pages/home/_header-info.scss */
 .header-info {
   top: -2em;
+  z-index: 1000;
 }
-/* line 4, ../sass/pages/home/_header-info.scss */
+/* line 5, ../sass/pages/home/_header-info.scss */
 .header-info p {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
