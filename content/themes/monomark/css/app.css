@@ -16875,6 +16875,11 @@ header {
   width: 100%;
   padding-top: 0.8125rem;
   padding-bottom: 0.8125rem;
+  background: white;
+}
+/* line 7, ../sass/layout/_header.scss */
+header.stick {
+  position: fixed;
 }
 
 /* line 1, ../sass/modules/_fullwidth.scss */

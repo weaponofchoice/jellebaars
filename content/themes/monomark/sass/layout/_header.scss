@@ -2,4 +2,9 @@ header{
   width: 100%;
   padding-top: rem-calc(13);
   padding-bottom: rem-calc(13);
+  background: $white;
+  
+  &.stick{
+    position: fixed;
+  }
 }

@@ -21,7 +21,7 @@
 
 <body <?php body_class(); ?> id="<?php echo the_title(); ?>">
   <header>
-    <img src="<?php bloginfo('template_directory'); ?>/img/logo.svg">
+    <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo.svg"></a>
     <a class="hamburger"></a>
   </header>
   
