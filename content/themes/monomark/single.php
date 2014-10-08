@@ -26,10 +26,10 @@ if( have_posts() ):
     <img src="<?php echo $image_single; ?>">
     <h1><?php echo $title_single; ?></h1>
   </div>
-  <div class="medium-2 medium-offset-1 columns">
+  <article class="medium-2 medium-offset-1 columns">
     <h2><?php echo $text_large_single; ?></h2>
     <p><?php echo $text_small_single; ?></p>
-  </div>
+  </article>
   
   <?php
   endwhile;

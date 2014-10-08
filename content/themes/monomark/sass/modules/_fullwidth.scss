@@ -1,8 +1,9 @@
 .fullwidth{
   min-width: 100vw;
   overflow: hidden;
-  margin-left: -70px;
-  margin-top: -50px;
+  margin-left: rem-calc(-70);
+  margin-top: rem-calc(-50);
+  margin-bottom: rem-calc(120);
   
   img{
     min-width: 100%;

@@ -16875,14 +16875,15 @@ header {
 .fullwidth {
   min-width: 100vw;
   overflow: hidden;
-  margin-left: -70px;
-  margin-top: -50px;
+  margin-left: -4.375rem;
+  margin-top: -3.125rem;
+  margin-bottom: 7.5rem;
 }
-/* line 7, ../sass/modules/_fullwidth.scss */
+/* line 8, ../sass/modules/_fullwidth.scss */
 .fullwidth img {
   min-width: 100%;
 }
-/* line 11, ../sass/modules/_fullwidth.scss */
+/* line 12, ../sass/modules/_fullwidth.scss */
 .fullwidth h1 {
   position: absolute;
   top: 50%;
@@ -16893,6 +16894,20 @@ header {
   text-align: center;
   text-transform: uppercase;
   border: 0.125rem solid white;
+}
+
+/* line 3, ../sass/modules/_single.scss */
+.single #container article {
+  margin-bottom: 7.5rem;
+}
+/* line 6, ../sass/modules/_single.scss */
+.single #container article h2 {
+  margin-bottom: 1.875rem;
+}
+
+/* line 1, ../sass/modules/_article.scss */
+article {
+  max-width: 43.75rem;
 }
 
 /* line 1, ../sass/modules/_case.scss */
