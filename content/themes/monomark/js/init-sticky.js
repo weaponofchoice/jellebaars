@@ -3,7 +3,5 @@ var header;
 
 if ($('html').length > 0) {
   header = $('header');
-  header.waypoint(function(direction) {
-    return header.toggleClass("stick");
-  });
+  header.stick_in_parent();
 }
