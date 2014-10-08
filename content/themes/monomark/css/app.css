@@ -16839,6 +16839,10 @@ a {
 a:hover {
   color: black;
 }
+/* line 118, ../sass/base/typo/_typography.scss */
+a * {
+  cursor: pointer;
+}
 
 /* line 1, ../sass/layout/_grid.scss */
 .grid {
@@ -16982,16 +16986,61 @@ nav {
   z-index: 1000;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.85);
   width: 100%;
   padding: 100px 70px;
   opacity: 0;
   visibility: hidden;
+  -moz-transform: translate3d(0, -50px, 0);
+  -o-transform: translate3d(0, -50px, 0);
+  -ms-transform: translate3d(0, -50px, 0);
+  -webkit-transform: translate3d(0, -50px, 0);
+  transform: translate3d(0, -50px, 0);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
-/* line 13, ../sass/modules/navigation/_nav.scss */
+/* line 15, ../sass/modules/navigation/_nav.scss */
 nav.menu-active {
   opacity: 1;
   visibility: visible;
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+/* line 22, ../sass/modules/navigation/_nav.scss */
+nav li {
+  margin-bottom: 1em;
+}
+/* line 25, ../sass/modules/navigation/_nav.scss */
+nav li:first-child {
+  margin-bottom: 4em;
+}
+/* line 29, ../sass/modules/navigation/_nav.scss */
+nav li:last-child {
+  margin-top: 4em;
+}
+/* line 33, ../sass/modules/navigation/_nav.scss */
+nav li a {
+  text-decoration: none;
+}
+/* line 36, ../sass/modules/navigation/_nav.scss */
+nav li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+/* line 41, ../sass/modules/navigation/_nav.scss */
+nav li a h2 {
+  color: white;
 }
 
 /* line 2, ../sass/modules/navigation/_logo.scss */
