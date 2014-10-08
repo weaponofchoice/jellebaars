@@ -22,11 +22,14 @@ if( have_posts() ):
   endif;
   
   ?>
-  
-  <img src="<?php echo $image_single; ?>">
-  <h2><?php echo $title_single; ?></h2>
-  <p>TEXT LARGE: <?php echo $text_large_single; ?></p>
-  <p>TEXT SMALL: <?php echo $text_small_single; ?></p>
+  <div class="fullwidth">
+    <img src="<?php echo $image_single; ?>">
+    <h1><?php echo $title_single; ?></h1>
+  </div>
+  <div class="medium-2 medium-offset-1 columns">
+    <h2><?php echo $text_large_single; ?></h2>
+    <p><?php echo $text_small_single; ?></p>
+  </div>
   
   <?php
   endwhile;

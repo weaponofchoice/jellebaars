@@ -10,8 +10,10 @@ a 		  = 15px walsheim
 
 %base{
   @include gotham;
-  	
-	font-size: rem-calc(15);
+  
+  margin: 0;
+  
+	font-size: rem-calc(13);
 	color: $black;
 	
 	// Font styles in classes
@@ -87,7 +89,7 @@ h3{
   @extend %base;
   @include chronicle;
   
-  font-size: rem-calc(30);
+  font-size: rem-calc(28);
   font-weight: 700;
   line-height: 1.1;
 }
@@ -95,18 +97,18 @@ h3{
 p{
 	@extend %base;
 	
-	font-size: rem-calc(15);
+	font-size: rem-calc(13);
 	
 	// Read text for brand stories and blog posts
 	&.reading{
-		font-size: rem-calc(20);
+		font-size: rem-calc(15);
 	}
 }
 
 a{
 	@extend %base;
 	
-	font-size: rem-calc(15);
+	font-size: rem-calc(13);
   text-decoration: underline;
 	
 	&:hover{
