@@ -22,6 +22,8 @@
 
 html{
   background: $white;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 input[type=number]::-webkit-inner-spin-button,

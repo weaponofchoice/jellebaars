@@ -6096,16 +6096,18 @@ th.hide-for-touch {
 /* line 23, ../sass/base/_reset.scss */
 html {
   background: white;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-/* line 28, ../sass/base/_reset.scss */
+/* line 30, ../sass/base/_reset.scss */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* line 33, ../sass/base/_reset.scss */
+/* line 35, ../sass/base/_reset.scss */
 ul, ol, dl {
   margin-left: 0;
   margin-bottom: 0;
@@ -16882,6 +16884,21 @@ header {
 /* line 8, ../sass/layout/_header.scss */
 header.stick {
   position: fixed;
+}
+
+/* line 1, ../sass/layout/_footer.scss */
+footer {
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 3.125rem;
+}
+/* line 6, ../sass/layout/_footer.scss */
+footer .columns {
+  padding-left: 3.75rem;
+}
+/* line 9, ../sass/layout/_footer.scss */
+footer .columns h3, footer .columns p {
+  margin-bottom: 1.875rem;
 }
 
 /* line 1, ../sass/modules/_fullwidth.scss */
