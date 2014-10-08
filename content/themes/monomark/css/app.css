@@ -6093,14 +6093,19 @@ th.hide-for-touch {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 24, ../sass/base/_reset.scss */
+/* line 23, ../sass/base/_reset.scss */
+html {
+  background: white;
+}
+
+/* line 28, ../sass/base/_reset.scss */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* line 29, ../sass/base/_reset.scss */
+/* line 33, ../sass/base/_reset.scss */
 ul, ol, dl {
   margin-left: 0;
   margin-bottom: 0;
@@ -16868,7 +16873,8 @@ a:hover {
 /* line 1, ../sass/layout/_header.scss */
 header {
   width: 100%;
-  background: gold;
+  padding-top: 0.8125rem;
+  padding-bottom: 0.8125rem;
 }
 
 /* line 1, ../sass/modules/_fullwidth.scss */
@@ -16894,15 +16900,6 @@ header {
   text-align: center;
   text-transform: uppercase;
   border: 0.125rem solid white;
-}
-
-/* line 3, ../sass/modules/_single.scss */
-.single #container article {
-  margin-bottom: 7.5rem;
-}
-/* line 6, ../sass/modules/_single.scss */
-.single #container article h2 {
-  margin-bottom: 1.875rem;
 }
 
 /* line 1, ../sass/modules/_article.scss */
@@ -16940,4 +16937,28 @@ article {
 /* line 27, ../sass/modules/_case.scss */
 .case .case-info * {
   margin-bottom: 0.8125rem;
+}
+
+/* line 1, ../sass/pages/home/_home.scss */
+.home {
+  padding-top: 1.875rem;
+}
+
+/* line 1, ../sass/pages/home/_header-info.scss */
+.header-info {
+  top: -2em;
+}
+/* line 4, ../sass/pages/home/_header-info.scss */
+.header-info p {
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+
+/* line 3, ../sass/pages/single/_single.scss */
+.single #container article {
+  margin-bottom: 7.5rem;
+}
+/* line 6, ../sass/pages/single/_single.scss */
+.single #container article h2 {
+  margin-bottom: 1.875rem;
 }

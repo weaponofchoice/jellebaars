@@ -1,0 +1,8 @@
+.header-info{
+  top: -2em; // To compensate the header's padding
+  
+  p{
+    padding-left: rem-calc(30);
+    padding-right: rem-calc(30);
+  }
+}
