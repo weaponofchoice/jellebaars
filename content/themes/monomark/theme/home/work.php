@@ -23,7 +23,7 @@ if( $cases ):
     
     // Loop into 'gallery or image'
     if( get_field('gallery_or_image') == 'Image' ){
-      $image_home = get_field('image_home')['sizes']['thumbnail'];
+      $image_home = get_field('image_home')['sizes']['large'];
     }
     
     setup_postdata( $post );

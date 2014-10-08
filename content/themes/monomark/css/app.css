@@ -16918,6 +16918,11 @@ header {
 }
 /* line 22, ../sass/modules/_case.scss */
 .case .case-info {
+  width: 80%;
   max-width: 34.375rem;
   margin: auto;
+}
+/* line 27, ../sass/modules/_case.scss */
+.case .case-info * {
+  margin-bottom: 0.8125rem;
 }
