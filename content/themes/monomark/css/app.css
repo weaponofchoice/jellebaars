@@ -16729,7 +16729,7 @@ a 		  = 15px walsheim
   font-style: normal;
   margin: 0;
   font-size: 0.8125rem;
-  color: black;
+  color: #222222;
 }
 /* line 17, ../sass/base/typo/_fonts.scss */
 .bold {
@@ -16948,14 +16948,14 @@ article {
   height: 5px;
   top: 13.5px;
   position: absolute;
-  background: black;
+  background: #222222;
 }
 /* line 19, ../sass/modules/_hamburger.scss */
 .hamburger div:before, .hamburger div:after {
   content: "";
   width: 32px;
   height: 5px;
-  background: black;
+  background: #222222;
   position: absolute;
 }
 /* line 27, ../sass/modules/_hamburger.scss */

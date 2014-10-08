@@ -13,14 +13,14 @@
     height: 5px;
     top: 13.5px;
     position: absolute;
-    background: black;
+    background: $grey-dark;
     
     &:before,
     &:after{
       content: "";
       width: 32px;
       height: 5px;
-      background: black;
+      background: $grey-dark;
       position: absolute;
     }
     
