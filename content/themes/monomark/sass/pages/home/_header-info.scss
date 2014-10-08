@@ -1,4 +1,6 @@
 .header-info{
+  height: auto;
+  overflow: hidden;
   top: -2em; // To compensate the header's padding
   z-index: $zIndex-headerInfo;
   

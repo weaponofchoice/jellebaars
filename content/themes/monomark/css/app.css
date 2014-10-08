@@ -16950,6 +16950,48 @@ article {
   bottom: -0.75rem;
 }
 
+/* line 37, ../sass/modules/_hamburger.scss */
+.hamburger {
+  opacity: 0;
+  visibility: hidden;
+  -moz-transform: translate3d(5px, 0, 0);
+  -o-transform: translate3d(5px, 0, 0);
+  -ms-transform: translate3d(5px, 0, 0);
+  -webkit-transform: translate3d(5px, 0, 0);
+  transform: translate3d(5px, 0, 0);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+/* line 43, ../sass/modules/_hamburger.scss */
+.hamburger.show {
+  opacity: 1;
+  visibility: visible;
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* line 52, ../sass/modules/_hamburger.scss */
+.single .hamburger {
+  opacity: 1;
+  visibility: visible;
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
 /* line 1, ../sass/modules/_case.scss */
 .case {
   margin-bottom: 3.125rem;
@@ -16989,10 +17031,12 @@ article {
 
 /* line 1, ../sass/pages/home/_header-info.scss */
 .header-info {
+  height: auto;
+  overflow: hidden;
   top: -2em;
   z-index: 1000;
 }
-/* line 5, ../sass/pages/home/_header-info.scss */
+/* line 7, ../sass/pages/home/_header-info.scss */
 .header-info p {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
