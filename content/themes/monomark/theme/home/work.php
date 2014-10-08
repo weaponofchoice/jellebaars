@@ -1,3 +1,4 @@
+<ul class="medium-block-grid-3">
 <?php
 $cases = get_field('case_recent');
 
@@ -22,21 +23,24 @@ if( $cases ):
     
     // Loop into 'gallery or image'
     if( get_field('gallery_or_image') == 'Image' ){
-      $image_home = get_field('image_home')['sizes']['thumbnail'];
+      $image_home = get_field('image_home')['sizes']['large'];
     }
     
     setup_postdata( $post );
     ?>
     
-    <div class="case case-featured">
-      <p>TYPE: <?php echo $type; ?></p>
-      <img src="<?php echo $image_home; ?>">
-      <p>TITLE: <?php echo $title; ?></p>
-      <a href="<?php echo $link; ?>">LINK TEXT: <?php echo $link_text; ?></a>
-    </div>
+    <li class="case case-small">
+      <p><?php echo $type; ?></p>
+      <img class="thumb" src="<?php echo $image_home; ?>">
+      <div class="case-info">
+        <h3 class="title"><?php echo $title; ?></h3>
+        <a href="<?php echo $link; ?>"><?php echo $link_text; ?></a>
+      </div>
+    </li>
   
     <?php
     wp_reset_postdata();
   endforeach;
 endif;
 ?>
+</ul>

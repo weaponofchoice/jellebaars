@@ -1,0 +1,13 @@
+footer{
+  height: auto;
+  overflow: hidden;
+  margin-bottom: rem-calc(50);
+  
+  .columns{
+    padding-left: rem-calc(60);
+    
+    h3, p{
+      margin-bottom: rem-calc(30);
+    }
+  }
+}

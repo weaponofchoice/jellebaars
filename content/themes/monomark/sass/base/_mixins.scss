@@ -1,0 +1,36 @@
+@import "compass/css3/appearance";
+
+@mixin clearfix {
+	&:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}
+
+@mixin transition( $transition ) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+}
+
+// generic transform
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          	transform: $transforms;
+}
+
+// rotate
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+// translate3d
+@mixin translate3d ($x,$y,$z) {
+	@include transform(translate3d($x,$y,$z))
+}
