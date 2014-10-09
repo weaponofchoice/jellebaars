@@ -9,9 +9,10 @@ if ($('html').length > 0) {
   gallery_height = $('.rsImg').height();
   header_info.css("margin-top", -header_height);
   gallery.css("height", gallery_height);
-  $(window).on('resize', function() {});
-  header_height = header.height();
-  gallery_height = $('.royalSlider .rsMainSlideImage').height();
-  header_info.css("margin-top", -header_height);
-  gallery.css("height", gallery_height);
+  $(window).on('resize', function() {
+    header_height = header.height();
+    gallery_height = $('.rsImg').height();
+    header_info.css("margin-top", -header_height);
+    return gallery.css("height", gallery_height);
+  });
 }
