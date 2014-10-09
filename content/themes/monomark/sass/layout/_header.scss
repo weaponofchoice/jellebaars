@@ -4,6 +4,7 @@ header{
   padding-bottom: rem-calc(13);
   z-index: $zIndex-header;
   background: $white;
+  opacity: .9;
   
   &.stick{
     position: fixed;
