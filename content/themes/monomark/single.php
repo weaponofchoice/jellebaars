@@ -4,7 +4,8 @@ get_header();
 if( have_posts() ):
   while( have_posts() ): the_post();
   
-  $image_single = get_field('image_single')['url'];
+  $image_single = get_field('image_single');
+  $image_single_url = $image_single['url'];
   $title_single = get_field('title_single');
   
   // Loop into text_large repeater
@@ -23,7 +24,7 @@ if( have_posts() ):
   
   ?>
   <div class="fullwidth">
-    <img src="<?php echo $image_single; ?>">
+    <img src="<?php echo $image_single_url; ?>">
     <h1><?php echo $title_single; ?></h1>
   </div>
   <article class="medium-2 medium-offset-1 columns">
