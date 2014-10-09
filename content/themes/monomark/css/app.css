@@ -16872,6 +16872,7 @@ a * {
 #container {
   height: auto;
   overflow: hidden;
+  margin-bottom: 3.125rem;
   padding-top: 3.125rem;
   z-index: 100;
   background: white;
@@ -16912,6 +16913,10 @@ footer {
 /* line 7, ../sass/layout/_footer.scss */
 footer .columns h3, footer .columns p {
   margin-bottom: 1.875rem;
+}
+/* line 13, ../sass/layout/_footer.scss */
+footer a img {
+  max-width: 2rem;
 }
 
 /* line 1, ../sass/modules/_fullwidth.scss */

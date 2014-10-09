@@ -15,8 +15,8 @@ endif;
   <img src="<?php echo $image; ?>">
 </div>
 <article class="medium-2 medium-offset-1 columns">
-  <p><?php echo $text_about; ?></p>
-  <p><?php echo $text_contact; ?></p>
+  <p id="about"><?php echo $text_about; ?></p>
+  <p id="contact"><?php echo $text_contact; ?></p>
 </article>
 
 <?php get_footer(); ?>

@@ -1,6 +1,7 @@
 #container{
   height: auto;
   overflow: hidden;
+  margin-bottom: rem-calc(50);
   padding-top: rem-calc(50);
   z-index: $zIndex-container;
   background: $white;
