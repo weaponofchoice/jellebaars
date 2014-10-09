@@ -16926,35 +16926,6 @@ footer a img {
   max-width: 2rem;
 }
 
-/* line 1, ../sass/modules/_fullwidth.scss */
-.fullwidth {
-  min-width: 100vw;
-  overflow: hidden;
-  margin-left: -4.375rem;
-  margin-top: -3.125rem;
-  margin-bottom: 7.5rem;
-}
-/* line 8, ../sass/modules/_fullwidth.scss */
-.fullwidth img {
-  min-width: 100%;
-}
-/* line 12, ../sass/modules/_fullwidth.scss */
-.fullwidth h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding: 1.25rem 1.875rem;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  border: 0.125rem solid white;
-}
-
 /* line 1, ../sass/modules/_article.scss */
 article {
   max-width: 43.75rem;
@@ -17209,6 +17180,40 @@ header.menu-active .logo-white {
   top: 0;
   left: 0;
   z-index: 800;
+}
+
+/* line 1, ../sass/modules/images/_image.scss */
+img {
+  min-width: 100%;
+}
+
+/* line 1, ../sass/modules/images/_fullwidth.scss */
+.fullwidth {
+  min-width: 100vw;
+  overflow: hidden;
+  margin-left: -4.375rem;
+  margin-top: -3.125rem;
+  margin-bottom: 7.5rem;
+}
+/* line 8, ../sass/modules/images/_fullwidth.scss */
+.fullwidth img {
+  min-width: 100%;
+}
+/* line 12, ../sass/modules/images/_fullwidth.scss */
+.fullwidth h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 1.25rem 1.875rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0.125rem solid white;
 }
 
 /* line 1, ../sass/modules/gallery/_gallery.scss */
