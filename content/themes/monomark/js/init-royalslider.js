@@ -14,5 +14,7 @@ if ($('.royalSlider').length > 0) {
     controlNavigation: 'bullets',
     arrowsNavHideOnTouch: true,
     transitionType: 'fade'
+  }, {
+    autoHeight: true
   });
 }
