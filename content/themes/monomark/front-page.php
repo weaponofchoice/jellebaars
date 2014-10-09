@@ -13,7 +13,7 @@ if( have_posts() ):
     while( have_rows('homepage_elements') ): the_row();
     
     if( get_row_layout() == 'text' ):
-      include( locate_template('theme/home/text.php') );
+      include( locate_template('theme/elements/text.php') );
     elseif( get_row_layout() == 'cases' ):
       include( locate_template('theme/home/cases.php') );
     endif;

@@ -4,35 +4,29 @@ get_header();
 if( have_posts() ):
   while( have_posts() ): the_post();
   
-  $image_single = get_field('image_single');
-  $image_single_url = $image_single['url'];
-  $title_single = get_field('title_single');
-  
-  // Loop into text_large repeater
-  if( have_rows('text_large_single') ):
-    while( have_rows('text_large_single') ): the_row();
-      $text_large_single = get_sub_field('text');
+  if( have_rows('case_elements') ):
+    while( have_rows('case_elements') ): the_row();
+    
+    // Text
+    if( get_row_layout() == 'text' ):
+      include( locate_template('theme/elements/text.php') );
+      
+    // Gallery
+    elseif( get_row_layout() == 'gallery' ):
+      include( locate_template('theme/elements/gallery.php') );
+    
+    // Images
+    elseif( get_row_layout() == 'image_normal' ):
+      include( locate_template('theme/elements/images/image_normal.php') );
+    elseif( get_row_layout() == 'image_fullwidth' ):
+      include( locate_template('theme/elements/images/image_fullwidth.php') );
+    elseif( get_row_layout() == 'image_grid' ):
+      include( locate_template('theme/elements/images/image_grid.php') );
+    endif;
+    
     endwhile;
   endif;
   
-  // Loop into text_small repeater
-  if( have_rows('text_small_single') ):
-    while( have_rows('text_small_single') ): the_row();
-      $text_small_single = get_sub_field('text');
-    endwhile;
-  endif;
-  
-  ?>
-  <div class="fullwidth">
-    <img src="<?php echo $image_single_url; ?>">
-    <h1><?php echo $title_single; ?></h1>
-  </div>
-  <article class="medium-2 medium-offset-1 columns">
-    <h2><?php echo $text_large_single; ?></h2>
-    <p><?php echo $text_small_single; ?></p>
-  </article>
-  
-  <?php
   endwhile;
 
   else :

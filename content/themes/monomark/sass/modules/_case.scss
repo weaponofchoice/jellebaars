@@ -3,6 +3,9 @@
   text-align: center;
   
   &.case-featured{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
     margin-bottom: rem-calc(100);
   }
   
