@@ -1,0 +1,1 @@
+var slider;$(".royalSlider").length>0&&(slider=$(".royalSlider"),slider.royalSlider({keyboardNavEnabled:!0,imageScaleMode:"fill",imageAlignCenter:!0,autoScaleSlider:!1,slidesSpacing:0,loop:!0,transitionSpeed:200,controlNavigation:"bullets",arrowsNavHideOnTouch:!0,transitionType:"fade"}));

@@ -25,7 +25,7 @@ if( $featured ):
     
     <div class="case case-featured">
       <p><?php echo $type; ?></p>
-      <div class="gallery">
+      <div class="gallery royalSlider rsDefault">
         <?php
         if( get_field('gallery_or_image') == 'Gallery' ){
           $images = get_field('gallery_home');
@@ -34,7 +34,7 @@ if( $featured ):
             foreach( $images as $image ):
               $image_gallery_home = $image['sizes']['large']; ?>
             
-              <img src="<?php echo $image_gallery_home; ?>">
+              <img class="rsImg" src="<?php echo $image_gallery_home; ?>">
             
               <?php
             endforeach;
