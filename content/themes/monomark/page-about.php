@@ -1,23 +1,37 @@
 <?php
-get_header();
+get_header(); 
 
 if( have_posts() ):
   while( have_posts() ): the_post();
   
-  $image = get_field('image');
-  $image_url = $image['url'];
-  $text_about = get_field('text_about');
-  $text_contact = get_field('text_contact');
+  if( have_rows('page_elements') ):
+    while( have_rows('page_elements') ): the_row();
+    
+    // Text
+    if( get_row_layout() == 'text' ):
+      include( locate_template('theme/elements/text.php') );
+      
+    // Gallery
+    elseif( get_row_layout() == 'gallery' ):
+      include( locate_template('theme/elements/gallery.php') );
+    
+    // Images
+    elseif( get_row_layout() == 'image_normal' ):
+      include( locate_template('theme/elements/images/image_normal.php') );
+    elseif( get_row_layout() == 'image_fullwidth' ):
+      include( locate_template('theme/elements/images/image_fullwidth.php') );
+    elseif( get_row_layout() == 'image_grid' ):
+      include( locate_template('theme/elements/images/image_grid.php') );
+    endif;
+    
+    endwhile;
+  endif;
   
   endwhile;
-endif;
-?>
-<div class="fullwidth">
-  <img src="<?php echo $image_url; ?>">
-</div>
-<article class="medium-2 medium-offset-1 columns">
-  <p id="about"><?php echo $text_about; ?></p>
-  <p id="contact"><?php echo $text_contact; ?></p>
-</article>
 
-<?php get_footer(); ?>
+  else :
+    echo '<h2>Sorry, but you are looking for something that is not here</h2>';
+endif; wp_reset_postdata();
+
+get_footer();
+?>
