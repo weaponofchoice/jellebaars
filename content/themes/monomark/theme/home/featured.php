@@ -26,22 +26,22 @@ if( $featured ):
     <div class="case case-featured">
       <p><?php echo $type; ?></p>
       <div class="gallery royalSlider rsDefault">
-        <!-- <?php
+        <?php
         if( get_field('gallery_or_image') == 'Gallery' ){
           $images = get_field('gallery_home');
-
+      
           if( $images ):
             foreach( $images as $image ):
-              $image_gallery_home = $image['sizes']['large']; ?>
-
-              <img class="rsImg" src="<?php echo $image_gallery_home; ?>">
-
+              $image_gallery = $image['sizes']['large']; ?>
+             
+              <img class="rsImg" src="<?php echo $image_gallery; ?>">
+            
               <?php
             endforeach;
           endif;
-
+          
         }
-        ?> -->
+        ?>
       </div>
       <div class="case-info">
         <h3><?php echo $title; ?></h3>

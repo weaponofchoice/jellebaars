@@ -23,7 +23,8 @@ if( $cases ):
     
     // Loop into 'gallery or image'
     if( get_field('gallery_or_image') == 'Image' ){
-      $image_home = get_field('image_home')['sizes']['large'];
+      $image = get_field('image_home');
+      $image_url = $image['sizes']['large'];
     }
     
     setup_postdata( $post );
@@ -31,7 +32,7 @@ if( $cases ):
     
     <li class="case case-small">
       <p><?php echo $type; ?></p>
-      <img class="thumb" src="<?php echo $image_home; ?>">
+      <img class="thumb" src="<?php echo $image_url; ?>">
       <div class="case-info">
         <h3 class="title"><?php echo $title; ?></h3>
         <a href="<?php echo $link; ?>"><?php echo $link_text; ?></a>
