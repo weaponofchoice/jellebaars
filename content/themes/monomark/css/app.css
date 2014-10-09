@@ -17183,7 +17183,7 @@ header.menu-active .logo-white {
 }
 
 /* line 1, ../sass/modules/images/_image.scss */
-img {
+.image {
   min-width: 100%;
 }
 

@@ -24,7 +24,7 @@ if( $cases ):
     // Loop into 'gallery or image'
     if( get_field('gallery_or_image') == 'Image' ){
       $image = get_field('image_home');
-      $image_url = $image['sizes']['large'];
+      $image_url = $image['sizes']['medium'];
     }
     
     setup_postdata( $post );
