@@ -16863,7 +16863,7 @@ a * {
 }
 
 /* line 1, ../sass/layout/_structure.scss */
-#container, header {
+#container, header, footer {
   padding-left: 4.375rem;
   padding-right: 4.375rem;
 }
@@ -16909,11 +16909,7 @@ footer {
   overflow: hidden;
   margin-bottom: 3.125rem;
 }
-/* line 6, ../sass/layout/_footer.scss */
-footer .columns {
-  padding-left: 3.75rem;
-}
-/* line 9, ../sass/layout/_footer.scss */
+/* line 7, ../sass/layout/_footer.scss */
 footer .columns h3, footer .columns p {
   margin-bottom: 1.875rem;
 }

@@ -6,8 +6,6 @@
       <?php the_field('footer_text_2', 'option'); ?>
     </div>
   </footer>
-
-
   
   <?php wp_footer(); ?>
 </body>
