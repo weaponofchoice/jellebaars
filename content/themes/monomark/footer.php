@@ -1,5 +1,4 @@
-  </div><!-- end of container -->
-  
+  </div><!-- end of container -->  
 
   <footer>
     <div class="medium-1 medium-offset-1 columns">

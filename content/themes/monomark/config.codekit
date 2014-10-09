@@ -2,11 +2,24 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17945",
 "files": {
-	"\/coffee\/hamburger.coffee": {
+	"\/coffee\/app.coffee": {
 		"createSourceMap": 0,
 		"fileType": 32,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/coffee\/app.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/js\/app.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/coffee\/hamburger.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/coffee\/hamburger.coffee",
 		"minifyOutput": 1,
 		"outputAbbreviatedPath": "\/coffee\/hamburger.js",
@@ -44,8 +57,8 @@
 	"\/coffee\/nav.coffee": {
 		"createSourceMap": 0,
 		"fileType": 32,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/coffee\/nav.coffee",
 		"minifyOutput": 1,
 		"outputAbbreviatedPath": "\/coffee\/nav.js",
@@ -137,7 +150,7 @@
 		},
 	"\/js\/app.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/app.js",
 		"outputAbbreviatedPath": "\/js\/app.js",
@@ -1277,10 +1290,10 @@
 	],
 "lastSavedByUser": "Luc Awater",
 "manualImportLinks": {
-	"\/js\/app.js": [
+	"\/coffee\/app.coffee": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/height.js",
+			"linkedFileAbbreviatedPath": "\/coffee\/height.coffee",
 			"position": 0,
 			"type": 0
 			},
@@ -1292,18 +1305,50 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/init-sticky.js",
+			"linkedFileAbbreviatedPath": "\/coffee\/init-sticky.coffee",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/hamburger.js",
+			"linkedFileAbbreviatedPath": "\/coffee\/nav.coffee",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/coffee\/hamburger.coffee",
+			"position": 4,
+			"type": 0
+			}
+		],
+	"\/js\/app.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/js\/height.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/js\/vendor\/sticky-kit.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/js\/init-sticky.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/js\/hamburger.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/js\/nav.js",
 			"position": 4,
 			"type": 0
