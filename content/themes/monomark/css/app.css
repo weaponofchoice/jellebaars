@@ -17550,10 +17550,11 @@ img.rsImg {
   min-width: 100%;
   max-width: 100%;
   height: auto !important;
+  margin-left: 0 !important;
 }
 
 /* Arrows */
-/* line 26, ../sass/modules/gallery/_rs-default.scss */
+/* line 27, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsArrow {
   height: 100%;
   width: 2.75rem;
@@ -17562,7 +17563,7 @@ img.rsImg {
   cursor: pointer;
   z-index: 200;
 }
-/* line 34, ../sass/modules/gallery/_rs-default.scss */
+/* line 35, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsArrow .rsArrowIcn {
   width: 2.5rem;
   height: 2.5rem;
@@ -17571,7 +17572,7 @@ img.rsImg {
   position: absolute;
   cursor: pointer;
 }
-/* line 43, ../sass/modules/gallery/_rs-default.scss */
+/* line 44, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsArrow .rsArrowIcn:before {
   width: 0.1875rem;
   height: 50%;
@@ -17579,7 +17580,7 @@ img.rsImg {
   background: black;
   content: " ";
 }
-/* line 51, ../sass/modules/gallery/_rs-default.scss */
+/* line 52, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsArrow .rsArrowIcn:after {
   height: 0.1875rem;
   width: 50%;
@@ -17587,29 +17588,29 @@ img.rsImg {
   background: black;
   content: " ";
 }
-/* line 60, ../sass/modules/gallery/_rs-default.scss */
+/* line 61, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsArrow.rsArrowLeft {
   left: 0;
   top: 0;
   margin-left: 2em;
   -webkit-transform: rotate(-45deg);
 }
-/* line 66, ../sass/modules/gallery/_rs-default.scss */
+/* line 67, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsArrow.rsArrowLeft .rsArrowIcn {
   background-position: -64px -32px;
 }
-/* line 71, ../sass/modules/gallery/_rs-default.scss */
+/* line 72, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsArrow.rsArrowRight {
   right: 0;
   top: 0;
   margin-right: 2em;
   -webkit-transform: rotate(135deg);
 }
-/* line 77, ../sass/modules/gallery/_rs-default.scss */
+/* line 78, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsArrow.rsArrowRight .rsArrowIcn {
   background-position: -64px -64px;
 }
-/* line 83, ../sass/modules/gallery/_rs-default.scss */
+/* line 84, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsArrow.rsArrowDisabled .rsArrowIcn {
   opacity: .2;
   filter: alpha(opacity=20);
@@ -17617,7 +17618,7 @@ img.rsImg {
 }
 
 /* Bullets */
-/* line 95, ../sass/modules/gallery/_rs-default.scss */
+/* line 96, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsBullets {
   position: absolute;
   z-index: 200;
@@ -17626,14 +17627,14 @@ img.rsImg {
   background: none;
   text-align: center;
 }
-/* line 104, ../sass/modules/gallery/_rs-default.scss */
+/* line 105, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsBullets .rsBullet {
   display: inline-block;
   *display: inline;
   *zoom: 1;
   padding: 0 .2em;
 }
-/* line 110, ../sass/modules/gallery/_rs-default.scss */
+/* line 111, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsBullets .rsBullet span {
   display: block;
   width: 0.5rem;
@@ -17641,7 +17642,7 @@ img.rsImg {
   border-radius: 50%;
   background: black;
 }
-/* line 120, ../sass/modules/gallery/_rs-default.scss */
+/* line 121, ../sass/modules/gallery/_rs-default.scss */
 .rsDefault .rsBullets .rsNavSelected span {
   background-color: white;
 }
