@@ -23,7 +23,7 @@ if( $featured ):
     setup_postdata( $post );
     ?>
     
-    <div class="case case-featured">
+    <div class="case case-featured content-section">
       <p><?php echo $type; ?></p>
       <div class="gallery royalSlider rsDefault">
         <?php

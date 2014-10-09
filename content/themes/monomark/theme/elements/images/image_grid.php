@@ -1,4 +1,4 @@
-<ul class="medium-block-grid-2">
+<ul class="content-section medium-block-grid-2">
 <?php
 $images = get_sub_field('images');
 

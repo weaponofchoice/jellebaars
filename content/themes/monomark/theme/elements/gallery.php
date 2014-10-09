@@ -1,4 +1,4 @@
-<div class="gallery heightfix">
+<div class="gallery content-section heightfix">
   <div class="royalSlider rsDefault">
   <?php
   $images = get_sub_field('images');

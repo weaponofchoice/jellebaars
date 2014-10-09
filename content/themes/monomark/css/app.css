@@ -16874,6 +16874,11 @@ a * {
   padding-right: 4.375rem;
 }
 
+/* line 6, ../sass/layout/_structure.scss */
+.content-section {
+  margin-bottom: 5rem;
+}
+
 /* line 1, ../sass/layout/_container.scss */
 #container {
   height: auto;
@@ -16933,35 +16938,34 @@ article {
 
 /* line 1, ../sass/modules/_case.scss */
 .case {
-  margin-bottom: 3.125rem;
   text-align: center;
 }
-/* line 5, ../sass/modules/_case.scss */
+/* line 4, ../sass/modules/_case.scss */
 .case.case-featured {
   width: 100%;
   height: auto;
   overflow: hidden;
   margin-bottom: 6.25rem;
 }
-/* line 12, ../sass/modules/_case.scss */
+/* line 11, ../sass/modules/_case.scss */
 .case img {
   min-width: 100%;
 }
-/* line 16, ../sass/modules/_case.scss */
+/* line 15, ../sass/modules/_case.scss */
 .case .thumb, .case .gallery {
   margin-bottom: 1.875rem;
 }
-/* line 21, ../sass/modules/_case.scss */
+/* line 20, ../sass/modules/_case.scss */
 .case > p {
   margin-bottom: 1.875rem;
 }
-/* line 25, ../sass/modules/_case.scss */
+/* line 24, ../sass/modules/_case.scss */
 .case .case-info {
   width: 80%;
   max-width: 34.375rem;
   margin: auto;
 }
-/* line 30, ../sass/modules/_case.scss */
+/* line 29, ../sass/modules/_case.scss */
 .case .case-info * {
   margin-bottom: 0.8125rem;
 }
@@ -17193,13 +17197,12 @@ header.menu-active .logo-white {
   overflow: hidden;
   margin-left: -4.375rem;
   margin-top: -3.125rem;
-  margin-bottom: 7.5rem;
 }
-/* line 8, ../sass/modules/images/_fullwidth.scss */
+/* line 7, ../sass/modules/images/_fullwidth.scss */
 .fullwidth img {
   min-width: 100%;
 }
-/* line 12, ../sass/modules/images/_fullwidth.scss */
+/* line 11, ../sass/modules/images/_fullwidth.scss */
 .fullwidth h1 {
   position: absolute;
   top: 50%;
