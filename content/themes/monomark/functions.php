@@ -3,8 +3,6 @@
  * @package WordPress
  * @subpackage HTML5_Boilerplate
  */
-add_filter('show_admin_bar', '__return_false');
-
 // Renaming some wordpress admin menu items
 add_filter( 'gettext', 'admin_custom_posts' );
 add_filter( 'ngettext', 'admin_custom_posts' );
