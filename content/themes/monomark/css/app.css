@@ -17186,6 +17186,16 @@ header.menu-active .logo-white {
   transform: rotate(-45deg);
 }
 
+/* line 1, ../sass/modules/navigation/_overlay.scss */
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 800;
+}
+
 /* line 1, ../sass/pages/home/_home.scss */
 .home {
   padding-top: 1.875rem;
