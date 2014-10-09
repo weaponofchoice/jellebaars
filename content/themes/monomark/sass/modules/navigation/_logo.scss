@@ -1,10 +1,18 @@
 header{
-  .logo-black{
-    display: inline;
-  }
+  .logo{
+    max-height: rem-calc(25);
+    
+    img{
+      max-height: rem-calc(25);
+    }
+    
+    &.logo-black{
+      display: inline;
+    }
   
-  .logo-white{
-    display: none;
+    &.logo-white{
+      display: none;
+    }
   }
   
   &.menu-active{

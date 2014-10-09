@@ -17044,18 +17044,26 @@ nav li a h2 {
 }
 
 /* line 2, ../sass/modules/navigation/_logo.scss */
-header .logo-black {
+header .logo {
+  max-height: 1.5625rem;
+}
+/* line 5, ../sass/modules/navigation/_logo.scss */
+header .logo img {
+  max-height: 1.5625rem;
+}
+/* line 9, ../sass/modules/navigation/_logo.scss */
+header .logo.logo-black {
   display: inline;
 }
-/* line 6, ../sass/modules/navigation/_logo.scss */
-header .logo-white {
+/* line 13, ../sass/modules/navigation/_logo.scss */
+header .logo.logo-white {
   display: none;
 }
-/* line 11, ../sass/modules/navigation/_logo.scss */
+/* line 19, ../sass/modules/navigation/_logo.scss */
 header.menu-active .logo-black {
   display: none;
 }
-/* line 15, ../sass/modules/navigation/_logo.scss */
+/* line 23, ../sass/modules/navigation/_logo.scss */
 header.menu-active .logo-white {
   display: inline;
 }
@@ -17063,7 +17071,7 @@ header.menu-active .logo-white {
 /* line 1, ../sass/modules/navigation/_hamburger.scss */
 .hamburger {
   width: 2rem;
-  height: 2rem;
+  height: 1.5625rem;
   position: absolute;
   right: 4.375rem;
   opacity: 1;
@@ -17085,30 +17093,35 @@ header.menu-active .logo-white {
 }
 /* line 16, ../sass/modules/navigation/_hamburger.scss */
 .hamburger div {
-  width: 100%;
-  height: 5px;
-  top: 13.5px;
+  width: 95%;
+  height: 16%;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   background: #222222;
 }
-/* line 24, ../sass/modules/navigation/_hamburger.scss */
+/* line 25, ../sass/modules/navigation/_hamburger.scss */
 .hamburger div:before, .hamburger div:after {
   content: "";
-  width: 32px;
-  height: 5px;
+  width: 100%;
+  height: 100%;
   background: #222222;
   position: absolute;
 }
-/* line 32, ../sass/modules/navigation/_hamburger.scss */
+/* line 33, ../sass/modules/navigation/_hamburger.scss */
 .hamburger div:before {
-  top: -0.75rem;
+  top: -250%;
 }
-/* line 36, ../sass/modules/navigation/_hamburger.scss */
+/* line 37, ../sass/modules/navigation/_hamburger.scss */
 .hamburger div:after {
-  bottom: -0.75rem;
+  bottom: -250%;
 }
 
-/* line 43, ../sass/modules/navigation/_hamburger.scss */
+/* line 44, ../sass/modules/navigation/_hamburger.scss */
 .home .hamburger {
   opacity: 0;
   visibility: hidden;
@@ -17123,7 +17136,7 @@ header.menu-active .logo-white {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
-/* line 49, ../sass/modules/navigation/_hamburger.scss */
+/* line 50, ../sass/modules/navigation/_hamburger.scss */
 .home .hamburger.show {
   opacity: 1;
   visibility: visible;

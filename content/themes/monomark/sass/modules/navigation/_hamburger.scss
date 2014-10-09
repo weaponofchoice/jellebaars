@@ -1,6 +1,6 @@
 .hamburger{
   width: rem-calc(32); // Same as logo's height
-  height: rem-calc(32);
+  height: rem-calc(25);
   position: absolute;
   right: rem-calc(70);
   
@@ -14,27 +14,28 @@
   }
   
   div{
-    width: 100%;
-    height: 5px;
-    top: 13.5px;
+    width: 95%;
+    height: 16%;
+    top: 50%;
+    @include transform(translateY(-50%));
     position: absolute;
     background: $grey-dark;
     
     &:before,
     &:after{
       content: "";
-      width: 32px;
-      height: 5px;
+      width: 100%;
+      height: 100%;
       background: $grey-dark;
       position: absolute;
     }
     
     &:before{
-      top: rem-calc(-12);
+      top: -250%;
     }
     
     &:after{
-      bottom: rem-calc(-12);
+      bottom: -250%;
     }
   }
 }
