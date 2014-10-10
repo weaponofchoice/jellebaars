@@ -15,3 +15,12 @@ footer{
     }
   }
 }
+
+@media #{$small-only}{
+  footer{
+    div{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+}

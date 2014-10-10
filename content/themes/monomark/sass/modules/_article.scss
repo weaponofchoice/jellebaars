@@ -5,3 +5,10 @@ article{
     margin-bottom: 1em;
   }
 }
+
+@media #{$small-only}{
+  article{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
