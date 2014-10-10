@@ -124,7 +124,9 @@ a{
   html{
     font-size: 85%;
   }
-  
+}
+
+@media #{$small-only}{
   h1{
     font-size: rem-calc(34);
   }

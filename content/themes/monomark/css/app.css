@@ -16855,8 +16855,9 @@ a * {
   html {
     font-size: 85%;
   }
-
-  /* line 128, ../sass/base/typo/_typography.scss */
+}
+@media only screen and (max-width: 43.75em) {
+  /* line 130, ../sass/base/typo/_typography.scss */
   h1 {
     font-size: 2.125rem;
   }
