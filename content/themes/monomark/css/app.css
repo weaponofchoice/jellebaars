@@ -16855,6 +16855,11 @@ a * {
   html {
     font-size: 85%;
   }
+
+  /* line 128, ../sass/base/typo/_typography.scss */
+  h1 {
+    font-size: 2.125rem;
+  }
 }
 /* line 1, ../sass/layout/_grid.scss */
 .grid {
@@ -17159,6 +17164,13 @@ header.menu-active .logo-white {
   transition: 0.4s;
 }
 
+@media only screen and (max-width: 43.75em) {
+  /* line 61, ../sass/modules/navigation/_hamburger.scss */
+  .hamburger,
+  .closer {
+    right: 1.5625rem;
+  }
+}
 /* line 1, ../sass/modules/navigation/_closer.scss */
 .closer {
   width: 2rem;
@@ -17239,8 +17251,7 @@ header.menu-active .logo-white {
 @media only screen and (max-width: 43.75em) {
   /* line 26, ../sass/modules/images/_fullwidth.scss */
   .fullwidth {
-    margin-left: -4.375rem;
-    margin-top: -3.125rem;
+    margin-left: -1.875rem;
   }
 }
 /* line 1, ../sass/modules/gallery/_gallery.scss */
@@ -17687,4 +17698,11 @@ img.rsImg {
 .header-info p {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
+}
+
+@media only screen and (max-width: 43.75em) {
+  /* line 14, ../sass/pages/home/_header-info.scss */
+  .header-info {
+    display: none;
+  }
 }

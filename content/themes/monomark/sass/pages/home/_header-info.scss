@@ -9,3 +9,9 @@
     padding-right: rem-calc(30);
   }
 }
+
+@media #{$small-only}{
+  .header-info{
+    display: none;
+  }
+}

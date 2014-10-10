@@ -55,3 +55,10 @@
   	}
   }
 }
+
+@media #{$small-only}{
+  .hamburger,
+  .closer{
+    right: rem-calc(25);
+  }
+}
