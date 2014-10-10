@@ -44,3 +44,10 @@ nav{
     }
   }
 }
+
+@media #{$small-only}{
+  nav{
+    padding-left: rem-calc(30);
+    padding-right: rem-calc(30);
+  }
+}

@@ -57,8 +57,7 @@
 }
 
 @media #{$small-only}{
-  .hamburger,
-  .closer{
+  .hamburger{
     right: rem-calc(25);
   }
 }

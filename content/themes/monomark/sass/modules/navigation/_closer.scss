@@ -22,3 +22,9 @@
     }
   }
 }
+
+@media #{$small-only}{
+  .closer{
+    right: rem-calc(25);
+  }
+}

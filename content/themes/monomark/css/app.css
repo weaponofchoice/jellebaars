@@ -17069,6 +17069,13 @@ nav li a h2 {
   color: white;
 }
 
+@media only screen and (max-width: 43.75em) {
+  /* line 49, ../sass/modules/navigation/_nav.scss */
+  nav {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+}
 /* line 2, ../sass/modules/navigation/_logo.scss */
 header .logo {
   max-height: 1.5625rem;
@@ -17179,9 +17186,8 @@ header.menu-active .logo-white {
 }
 
 @media only screen and (max-width: 43.75em) {
-  /* line 61, ../sass/modules/navigation/_hamburger.scss */
-  .hamburger,
-  .closer {
+  /* line 60, ../sass/modules/navigation/_hamburger.scss */
+  .hamburger {
     right: 1.5625rem;
   }
 }
@@ -17219,6 +17225,12 @@ header.menu-active .logo-white {
   transform: rotate(-45deg);
 }
 
+@media only screen and (max-width: 43.75em) {
+  /* line 27, ../sass/modules/navigation/_closer.scss */
+  .closer {
+    right: 1.5625rem;
+  }
+}
 /* line 1, ../sass/modules/navigation/_overlay.scss */
 .overlay {
   width: 100%;
