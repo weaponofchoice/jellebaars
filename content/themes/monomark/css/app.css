@@ -16885,6 +16885,13 @@ a * {
   margin-bottom: 5rem;
 }
 
+@media only screen and (max-width: 43.75em) {
+  /* line 11, ../sass/layout/_structure.scss */
+  #container, header, footer {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+}
 /* line 1, ../sass/layout/_container.scss */
 #container {
   height: auto;
@@ -17229,6 +17236,13 @@ header.menu-active .logo-white {
   border: 0.125rem solid white;
 }
 
+@media only screen and (max-width: 43.75em) {
+  /* line 26, ../sass/modules/images/_fullwidth.scss */
+  .fullwidth {
+    margin-left: -4.375rem;
+    margin-top: -3.125rem;
+  }
+}
 /* line 1, ../sass/modules/gallery/_gallery.scss */
 .gallery {
   width: 100%;

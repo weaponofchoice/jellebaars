@@ -21,3 +21,9 @@
     border: rem-calc(2) solid $white;
   }
 }
+
+@media #{$small-only}{
+  .fullwidth{
+    margin-left: rem-calc(-30);
+  }
+}

@@ -6,3 +6,10 @@
 .content-section{
   margin-bottom: rem-calc(80);
 }
+
+@media #{$small-only}{
+  #container, header, footer{
+    padding-left: rem-calc(30);
+    padding-right: rem-calc(30);
+  }
+}
