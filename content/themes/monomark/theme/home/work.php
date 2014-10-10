@@ -1,4 +1,4 @@
-<ul class="content-section medium-block-grid-3">
+<ul class="content-section small-block-grid-1 medium-block-grid-3">
 <?php
 $cases = get_field('case_recent');
 

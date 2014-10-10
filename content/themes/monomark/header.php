@@ -47,10 +47,10 @@
   if( is_front_page() ){
   ?>
   <div class="header-info">
-    <div class="medium-1 medium-offset-1 columns">
+    <div class="small-1 small-offset-1 medium-1 medium-offset-1 columns">
       <?php the_field('header_text', 'option'); ?>
     </div>
-    <div class="medium-1 columns">
+    <div class="small-1 medium-1 columns">
       <?php the_field('header_text_2', 'option'); ?>
     </div>
   </div>

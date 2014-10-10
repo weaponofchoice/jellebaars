@@ -2,13 +2,13 @@
 @import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 /* line 287, ../sass/layout/foundation/components/_global.scss */
 meta.foundation-mq-small {
-  font-family: "/only screen and (max-width: 40em)/";
+  font-family: "/only screen and (max-width: 43.75em)/";
   width: 0em;
 }
 
 /* line 292, ../sass/layout/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em) and (max-width:64em)/";
+  font-family: "/only screen and (min-width:44.38em) and (max-width:64em)/";
   width: 40.063em;
 }
 
@@ -343,7 +343,7 @@ select {
     float: right !important;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 148, ../sass/layout/foundation/components/_grid.scss */
   .medium-push-1 {
     position: relative;
@@ -1086,7 +1086,7 @@ select {
     clear: both;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 44, ../sass/layout/foundation/components/_block-grid.scss */
   .medium-block-grid-1 > li {
     width: 100%;
@@ -1608,7 +1608,7 @@ select {
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 128, ../sass/layout/foundation/components/_clearing.scss */
   .clearing-main-prev,
   .clearing-main-next {
@@ -1729,7 +1729,7 @@ select {
     padding-top: 0;
   }
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 43.75em) {
   /* line 135, ../sass/layout/foundation/components/_dropdown.scss */
   .f-dropdown {
     max-width: 100%;
@@ -2180,7 +2180,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   background-color: #f04124;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 228, ../sass/layout/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -2780,7 +2780,7 @@ label.error {
 }
 
 /* Styles for screens that are atleast 768px; */
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 190, ../sass/layout/foundation/components/_joyride.scss */
   .joyride-tip-guide {
     width: 300px;
@@ -3172,7 +3172,7 @@ kbd {
   display: none;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 330, ../sass/layout/foundation/components/_orbit.scss */
   .touch .orbit-container .orbit-prev,
   .touch .orbit-container .orbit-next {
@@ -3183,7 +3183,7 @@ kbd {
     display: block;
   }
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 43.75em) {
   /* line 340, ../sass/layout/foundation/components/_orbit.scss */
   .orbit-stack-on-small .orbit-slides-container {
     height: auto !important;
@@ -4102,7 +4102,7 @@ table tfoot tr td {
   padding: 0 1.875rem;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 80, ../sass/layout/foundation/components/_tabs.scss */
   .tabs.vertical {
     width: 20%;
@@ -4206,7 +4206,7 @@ a.th {
   font-weight: normal;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 89, ../sass/layout/foundation/components/_tooltips.scss */
   .tooltip > .nub {
     border-color: transparent transparent #333333 transparent;
@@ -4241,7 +4241,7 @@ a.th {
 }
 /* line 77, ../sass/layout/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
+  font-family: "/only screen and (min-width:44.38em)/";
   width: 40.063em;
 }
 
@@ -4573,7 +4573,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 412, ../sass/layout/foundation/components/_top-bar.scss */
   .top-bar {
     background: #333333;
@@ -5078,7 +5078,7 @@ blockquote p {
   padding: 0 0.0625rem;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 378, ../sass/layout/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
@@ -5227,7 +5227,7 @@ p.lead {
 
 /* line 77, ../sass/layout/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
+  font-family: "/only screen and (min-width:44.38em)/";
   width: 40.063em;
 }
 
@@ -5329,7 +5329,7 @@ section.tab-bar-section {
   height: 2.8125rem;
   top: 0;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 278, ../sass/layout/foundation/components/_offcanvas.scss */
   section.tab-bar-section {
     text-align: left;
@@ -5445,7 +5445,7 @@ ul.off-canvas-list li a {
   right: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 244, ../sass/layout/foundation/components/_offcanvas.scss */
   .move-right a.exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -5474,7 +5474,7 @@ ul.off-canvas-list li a {
   right: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 244, ../sass/layout/foundation/components/_offcanvas.scss */
   .move-left a.exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -5577,7 +5577,7 @@ th.hide-for-xxlarge-up {
 }
 
 /* Medium Displays: 641px and up */
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 44.38em) {
   /* line 144, ../sass/layout/foundation/components/_visibility.scss */
   .hide-for-small,
   .hide-for-small-only,
@@ -16850,6 +16850,12 @@ a * {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 64em) {
+  /* line 124, ../sass/base/typo/_typography.scss */
+  html {
+    font-size: 85%;
+  }
+}
 /* line 1, ../sass/layout/_grid.scss */
 .grid {
   width: 100%;
