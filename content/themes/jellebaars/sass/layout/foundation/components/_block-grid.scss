@@ -29,7 +29,7 @@ $block-grid-media-queries: true !default;
   @if $base-style {
     display: block;
     padding: 0;
-    margin: 0 (-$spacing/2);
+    //margin: 0 (-$spacing/2);
     @include clearfix;
 
     &>li {
@@ -78,6 +78,14 @@ $block-grid-media-queries: true !default;
 
     @media #{$large-up} {
       @include block-grid-html-classes($size:large);
+    }
+    
+    @media #{$xlarge-up} {
+      @include block-grid-html-classes($size:xlarge);
+    }
+    
+    @media #{$xxlarge-up} {
+      @include block-grid-html-classes($size:xxlarge);
     }
   }
 }

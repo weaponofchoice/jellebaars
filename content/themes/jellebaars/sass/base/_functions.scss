@@ -7,14 +7,14 @@
 }
 
 // Margin-bottom size function
-@for $b from 1 through 1000{
+@for $b from 1 through 100{
   .margin-b#{$b}{
     margin-bottom: rem-calc($b) !important;
   }
 }
 
 // Margin-top size function
-@for $c from 1 through 1000{
+@for $c from 1 through 100{
   .margin-t#{$c}{
     margin-top: rem-calc($c) !important;
   }

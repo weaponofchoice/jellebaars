@@ -1,20 +1,25 @@
-// Fonts is retrieved from the cloud of typography.com(see header.php)
-@mixin chronicle{
-	font-family: 'Chronicle Display A', 'Chronicle Display B';
-	font-weight: 400;
-	font-style: normal;
-	
-	&.bold{
-		font-weight: 700;
-	}
+@import url("//hello.myfonts.net/count/2cdd80");
+
+@font-face{
+  font-family: 'NHaasGroteskDSPro-75Bd';
+  src: url('../fonts/2CDD80_0_0.eot');
+  src: url('../fonts/2CDD80_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2CDD80_0_0.woff2') format('woff2'),url('../fonts/2CDD80_0_0.woff') format('woff'),url('../fonts/2CDD80_0_0.ttf') format('truetype');
 }
 
-@mixin gotham{
-	font-family: 'Gotham SSm A', 'Gotham SSm B';
-	font-weight: 400;
-	font-style: normal;
-	
-	&.bold{
-		font-weight: 700;
-	}
+@font-face {
+  font-family: 'NHaasGroteskTXStd-55Rg';
+  src: url('../fonts/2CDD80_1_0.eot');
+  src: url('../fonts/2CDD80_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2CDD80_1_0.woff2') format('woff2'),url('../fonts/2CDD80_1_0.woff') format('woff'),url('../fonts/2CDD80_1_0.ttf') format('truetype');
+}
+
+@mixin NHaasGroteskDSPro-75Bd{
+  font-family: 'NHaasGroteskDSPro-75Bd';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin NHaasGroteskTXStd-55Rg{
+  font-family: 'NHaasGroteskTXStd-55Rg';
+  font-weight: normal;
+  font-style: normal;
 }

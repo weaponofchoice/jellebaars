@@ -9,7 +9,7 @@ a 		  = 15px walsheim
 */
 
 %base{
-  @include gotham;
+  @include NHaasGroteskTXStd-55Rg;
   
   margin: 0;
   
@@ -70,7 +70,7 @@ a 		  = 15px walsheim
 
 h1{
 	@extend %base;
-  @include chronicle;
+  @include NHaasGroteskDSPro-75Bd;
 	
 	font-size: rem-calc(55);
   font-weight: 700;
@@ -79,7 +79,7 @@ h1{
 
 h2{
 	@extend %base;
-  @include chronicle;
+  @include NHaasGroteskDSPro-75Bd;
 	
 	font-size: rem-calc(40);
 	line-height: 1.1;
@@ -87,7 +87,7 @@ h2{
 
 h3{
   @extend %base;
-  @include chronicle;
+  @include NHaasGroteskDSPro-75Bd;
   
   font-size: rem-calc(28);
   font-weight: 700;
