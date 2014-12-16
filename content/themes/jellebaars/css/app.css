@@ -14709,13 +14709,14 @@ header.menu-active .logo-white {
 /* line 1, ../sass/modules/navigation/_trigger.scss */
 .trigger {
   width: 2rem;
-  height: 1.5625rem;
+  height: auto;
+  display: inline-table;
   position: absolute;
   right: 4.375rem;
   top: 0;
   bottom: 0;
   margin: auto; }
-  /* line 11, ../sass/modules/navigation/_trigger.scss */
+  /* line 12, ../sass/modules/navigation/_trigger.scss */
   .trigger.trigger-menuOpen {
     opacity: 1;
     visibility: visible;
@@ -14729,24 +14730,24 @@ header.menu-active .logo-white {
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s; }
-  /* line 18, ../sass/modules/navigation/_trigger.scss */
+  /* line 19, ../sass/modules/navigation/_trigger.scss */
   .trigger.trigger-menuClose {
-    margin-right: -5px;
-    margin-top: 20px; }
-  /* line 23, ../sass/modules/navigation/_trigger.scss */
+    margin-right: -10px;
+    margin-top: 25px; }
+  /* line 24, ../sass/modules/navigation/_trigger.scss */
   .trigger * {
     cursor: pointer; }
 
-/* line 28, ../sass/modules/navigation/_trigger.scss */
+/* line 29, ../sass/modules/navigation/_trigger.scss */
 .trigger-menu .trigger-menu-line {
   width: 100%;
   height: 2px;
   background: black; }
-  /* line 33, ../sass/modules/navigation/_trigger.scss */
+  /* line 34, ../sass/modules/navigation/_trigger.scss */
   .trigger-menu .trigger-menu-line:nth-child(2) {
     margin: 5px 0; }
 
-/* line 40, ../sass/modules/navigation/_trigger.scss */
+/* line 41, ../sass/modules/navigation/_trigger.scss */
 .home .trigger-menu {
   opacity: 0;
   visibility: hidden;
@@ -14760,7 +14761,7 @@ header.menu-active .logo-white {
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s; }
-  /* line 46, ../sass/modules/navigation/_trigger.scss */
+  /* line 47, ../sass/modules/navigation/_trigger.scss */
   .home .trigger-menu.is-visible {
     opacity: 1;
     visibility: visible;
@@ -14775,7 +14776,7 @@ header.menu-active .logo-white {
     -o-transition: 0.4s;
     transition: 0.4s; }
 
-/* line 57, ../sass/modules/navigation/_trigger.scss */
+/* line 58, ../sass/modules/navigation/_trigger.scss */
 .trigger-menuClose .trigger-menu-line {
   -moz-transform-origin: left;
   -o-transform-origin: left;
@@ -14783,14 +14784,14 @@ header.menu-active .logo-white {
   -webkit-transform-origin: left;
   transform-origin: left;
   background: white; }
-/* line 63, ../sass/modules/navigation/_trigger.scss */
+/* line 64, ../sass/modules/navigation/_trigger.scss */
 .trigger-menuClose .trigger-menu-line:first-child {
   -moz-transform: rotate(45deg) translate3d(-7px, 0, 0);
   -o-transform: rotate(45deg) translate3d(-7px, 0, 0);
   -ms-transform: rotate(45deg) translate3d(-7px, 0, 0);
   -webkit-transform: rotate(45deg) translate3d(-7px, 0, 0);
   transform: rotate(45deg) translate3d(-7px, 0, 0); }
-/* line 67, ../sass/modules/navigation/_trigger.scss */
+/* line 68, ../sass/modules/navigation/_trigger.scss */
 .trigger-menuClose .trigger-menu-line:last-child {
   -moz-transform: rotate(-45deg) translate3d(-11px, 4px, 0);
   -o-transform: rotate(-45deg) translate3d(-11px, 4px, 0);
@@ -14799,7 +14800,7 @@ header.menu-active .logo-white {
   transform: rotate(-45deg) translate3d(-11px, 4px, 0); }
 
 @media only screen and (max-width: 31.25em) {
-  /* line 73, ../sass/modules/navigation/_trigger.scss */
+  /* line 74, ../sass/modules/navigation/_trigger.scss */
   .trigger-menu {
     right: 1.5625rem; } }
 /* line 1, ../sass/modules/navigation/_closer.scss */

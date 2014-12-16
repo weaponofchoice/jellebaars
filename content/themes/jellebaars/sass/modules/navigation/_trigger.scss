@@ -1,6 +1,7 @@
 .trigger{
   width: rem-calc(32); // Same as logo's height
-  height: rem-calc(25);
+  height: auto;
+  display: inline-table;
   position: absolute;
   right: rem-calc(70);
   
@@ -16,8 +17,8 @@
   }
   
   &.trigger-menuClose{
-    margin-right: -5px;
-    margin-top: 20px;
+    margin-right: -10px;
+    margin-top: 25px;
   }
   
   *{
