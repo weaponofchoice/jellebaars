@@ -5,9 +5,9 @@
 if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else { // Server settings
-	define( 'DB_NAME', 'monomark_dev' );
-	define( 'DB_USER', 'monomark' );
-	define( 'DB_PASSWORD', 'YWBdKJkDrBw7w7' );
+	define( 'DB_NAME', 'jellebaars_dev' );
+	define( 'DB_USER', 'jellebaars' );
+	define( 'DB_PASSWORD', 'DDvjJwiuVn3Ar9' );
 	define( 'DB_HOST', 'localhost' ); // Probably 'localhost'
   
   define( 'WP_HOME' , 'http://' . $_SERVER['HTTP_HOST'] );
