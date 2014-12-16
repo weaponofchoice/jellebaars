@@ -9,19 +9,25 @@ header{
   &.stick{
     position: fixed;
   }
-  
-  &.menu-active{
-    z-index: 1001;
-    background: transparent;
-      
-    .trigger-menuOpen{
-      visibility: hidden !important;
-      opacity: 0 !important;
-    }
+}
+
+// Switching triggers
+header .trigger-menuClose{
+  visibility: hidden;
+  opacity: 0;
+}
+
+header.menu-active{
+  z-index: 1001;
+  background: transparent;
     
-    .trigger-menuClose{
-      visibility: visible;
-      opacity: 1;
-    }
+  .trigger-menuOpen{
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+  
+  .trigger-menuClose{
+    visibility: visible;
+    opacity: 1;
   }
 }

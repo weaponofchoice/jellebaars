@@ -14555,18 +14555,24 @@ header {
   /* line 9, ../sass/layout/_header.scss */
   header.stick {
     position: fixed; }
-  /* line 13, ../sass/layout/_header.scss */
-  header.menu-active {
-    z-index: 1001;
-    background: transparent; }
-    /* line 17, ../sass/layout/_header.scss */
-    header.menu-active .trigger-menuOpen {
-      visibility: hidden !important;
-      opacity: 0 !important; }
-    /* line 22, ../sass/layout/_header.scss */
-    header.menu-active .trigger-menuClose {
-      visibility: visible;
-      opacity: 1; }
+
+/* line 15, ../sass/layout/_header.scss */
+header .trigger-menuClose {
+  visibility: hidden;
+  opacity: 0; }
+
+/* line 20, ../sass/layout/_header.scss */
+header.menu-active {
+  z-index: 1001;
+  background: transparent; }
+  /* line 24, ../sass/layout/_header.scss */
+  header.menu-active .trigger-menuOpen {
+    visibility: hidden !important;
+    opacity: 0 !important; }
+  /* line 29, ../sass/layout/_header.scss */
+  header.menu-active .trigger-menuClose {
+    visibility: visible;
+    opacity: 1; }
 
 /* line 1, ../sass/layout/_footer.scss */
 footer {
