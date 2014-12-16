@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Monomark</title>
+  <title>Jelle Baars</title>
   
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/app.css">
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/680076/679586/css/fonts.css" />
