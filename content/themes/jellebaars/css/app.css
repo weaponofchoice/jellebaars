@@ -14552,11 +14552,13 @@ header {
     z-index: 1001;
     background: transparent; }
     /* line 17, ../sass/layout/_header.scss */
-    header.menu-active .hamburger {
-      visibility: hidden; }
-    /* line 21, ../sass/layout/_header.scss */
-    header.menu-active .closer {
-      visibility: visible; }
+    header.menu-active .trigger-menuOpen {
+      visibility: hidden !important;
+      opacity: 0 !important; }
+    /* line 22, ../sass/layout/_header.scss */
+    header.menu-active .trigger-menuClose {
+      visibility: visible;
+      opacity: 1; }
 
 /* line 1, ../sass/layout/_footer.scss */
 footer {
@@ -14687,58 +14689,48 @@ header.menu-active .logo-black {
 header.menu-active .logo-white {
   display: inline; }
 
-/* line 1, ../sass/modules/navigation/_hamburger.scss */
-.hamburger {
+/* line 1, ../sass/modules/navigation/_trigger.scss */
+.trigger {
   width: 2rem;
   height: 1.5625rem;
   position: absolute;
   right: 4.375rem;
   top: 0;
   bottom: 0;
-  margin: auto;
-  opacity: 1;
-  visibility: visible;
-  -moz-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s; }
-  /* line 16, ../sass/modules/navigation/_hamburger.scss */
-  .hamburger * {
+  margin: auto; }
+  /* line 11, ../sass/modules/navigation/_trigger.scss */
+  .trigger.trigger-menuOpen {
+    opacity: 1;
+    visibility: visible;
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
+  /* line 18, ../sass/modules/navigation/_trigger.scss */
+  .trigger.trigger-menuClose {
+    margin-right: -5px;
+    margin-top: 20px; }
+  /* line 23, ../sass/modules/navigation/_trigger.scss */
+  .trigger * {
     cursor: pointer; }
-  /* line 20, ../sass/modules/navigation/_hamburger.scss */
-  .hamburger div {
-    width: 95%;
-    height: 16%;
-    top: 50%;
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    position: absolute;
-    background: #222222; }
-    /* line 28, ../sass/modules/navigation/_hamburger.scss */
-    .hamburger div:before, .hamburger div:after {
-      content: "";
-      width: 100%;
-      height: 100%;
-      background: #222222;
-      position: absolute; }
-    /* line 37, ../sass/modules/navigation/_hamburger.scss */
-    .hamburger div:before {
-      top: -250%; }
-    /* line 41, ../sass/modules/navigation/_hamburger.scss */
-    .hamburger div:after {
-      bottom: -250%; }
 
-/* line 48, ../sass/modules/navigation/_hamburger.scss */
-.home .hamburger {
+/* line 28, ../sass/modules/navigation/_trigger.scss */
+.trigger-menu .trigger-menu-line {
+  width: 100%;
+  height: 2px;
+  background: black; }
+  /* line 33, ../sass/modules/navigation/_trigger.scss */
+  .trigger-menu .trigger-menu-line:nth-child(2) {
+    margin: 5px 0; }
+
+/* line 40, ../sass/modules/navigation/_trigger.scss */
+.home .trigger-menu {
   opacity: 0;
   visibility: hidden;
   -moz-transform: translate3d(5px, 0, 0);
@@ -14751,8 +14743,8 @@ header.menu-active .logo-white {
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s; }
-  /* line 54, ../sass/modules/navigation/_hamburger.scss */
-  .home .hamburger.show {
+  /* line 46, ../sass/modules/navigation/_trigger.scss */
+  .home .trigger-menu.is-visible {
     opacity: 1;
     visibility: visible;
     -moz-transform: translate3d(0, 0, 0);
@@ -14766,9 +14758,32 @@ header.menu-active .logo-white {
     -o-transition: 0.4s;
     transition: 0.4s; }
 
+/* line 57, ../sass/modules/navigation/_trigger.scss */
+.trigger-menuClose .trigger-menu-line {
+  -moz-transform-origin: left;
+  -o-transform-origin: left;
+  -ms-transform-origin: left;
+  -webkit-transform-origin: left;
+  transform-origin: left;
+  background: white; }
+/* line 63, ../sass/modules/navigation/_trigger.scss */
+.trigger-menuClose .trigger-menu-line:first-child {
+  -moz-transform: rotate(45deg) translate3d(-7px, 0, 0);
+  -o-transform: rotate(45deg) translate3d(-7px, 0, 0);
+  -ms-transform: rotate(45deg) translate3d(-7px, 0, 0);
+  -webkit-transform: rotate(45deg) translate3d(-7px, 0, 0);
+  transform: rotate(45deg) translate3d(-7px, 0, 0); }
+/* line 67, ../sass/modules/navigation/_trigger.scss */
+.trigger-menuClose .trigger-menu-line:last-child {
+  -moz-transform: rotate(-45deg) translate3d(-11px, 4px, 0);
+  -o-transform: rotate(-45deg) translate3d(-11px, 4px, 0);
+  -ms-transform: rotate(-45deg) translate3d(-11px, 4px, 0);
+  -webkit-transform: rotate(-45deg) translate3d(-11px, 4px, 0);
+  transform: rotate(-45deg) translate3d(-11px, 4px, 0); }
+
 @media only screen and (max-width: 31.25em) {
-  /* line 64, ../sass/modules/navigation/_hamburger.scss */
-  .hamburger {
+  /* line 73, ../sass/modules/navigation/_trigger.scss */
+  .trigger-menu {
     right: 1.5625rem; } }
 /* line 1, ../sass/modules/navigation/_closer.scss */
 .closer {

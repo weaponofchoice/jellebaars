@@ -16,11 +16,19 @@
 
 // generic transform
 @mixin transform($transforms) {
-	   -moz-transform: $transforms;
-	     -o-transform: $transforms;
-	    -ms-transform: $transforms;
-	-webkit-transform: $transforms;
-          	transform: $transforms;
+     -moz-transform: $transforms;
+       -o-transform: $transforms;
+      -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+@mixin transform-origin($transform-origin) {
+     -moz-transform-origin: $transform-origin;
+       -o-transform-origin: $transform-origin;
+      -ms-transform-origin: $transform-origin;
+  -webkit-transform-origin: $transform-origin;
+          transform-origin: $transform-origin;
 }
 
 // rotate

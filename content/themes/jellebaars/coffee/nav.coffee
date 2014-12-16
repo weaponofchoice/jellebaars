@@ -1,11 +1,11 @@
 if $('nav').length > 0
-  hamburger = $('.hamburger')
-  closer = $('.closer')
+  trigger = $('.trigger-menuOpen')
+  closer = $('.trigger-menuClose')
   nav = $('nav')
   header = $('header')
   container = $('#container')
   
-  hamburger.click ->
+  trigger.click ->
     container.prepend "<div class='overlay'></div>"
     header.addClass "menu-active"
     nav.addClass "menu-active"
@@ -13,10 +13,10 @@ if $('nav').length > 0
   closer.click ->
     overlay = $('.overlay')
     overlay.remove()
-    
+  
     header.removeClass "menu-active"
     nav.removeClass "menu-active"
-  
+      
   container.click ->
     overlay = $('.overlay')
     overlay.remove()

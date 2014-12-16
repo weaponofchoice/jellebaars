@@ -1,11 +1,11 @@
-if $('.hamburger').length > 0
+if $('.trigger-menuOpen').length > 0
   info = $('.header-info')
-  hamburger = $('.hamburger')
+  trigger = $('.trigger-menuOpen')
   
   info_height = info.height()
   
   $(document).scroll ->
     if $(document).scrollTop() >= info_height + 30
-      hamburger.addClass "show"
+      trigger.addClass "is-visible"
     else
-      hamburger.removeClass "show"
+      trigger.removeClass "is-visible"

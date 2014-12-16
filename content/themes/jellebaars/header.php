@@ -23,8 +23,15 @@
   <header>
     <a class="logo logo-black" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo-black.svg"></a>
     <a class="logo logo-white" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo-white.svg"></a>
-    <a class="hamburger"><div></div></a>
-    <a class="closer"><div></div><div></div></a>
+    <a href="javascript:;" class="trigger trigger-menu trigger-menuOpen">
+      <div class="trigger-menu-line"></div>
+      <div class="trigger-menu-line"></div>
+      <div class="trigger-menu-line"></div>
+    </a>
+    <a href="javascript:;" class="trigger trigger-menu trigger-menuClose">
+      <div class="trigger-menu-line"></div>
+      <div class="trigger-menu-line"></div>
+    </a>
   </header>
   
   <nav>
