@@ -5,7 +5,7 @@ nav{
   left: 0;
   background: rgba(0,0,0,.85);
   width: 100%;
-  padding: 100px 70px;
+  padding: 100px 80px;
   
   opacity: 0;
   visibility: hidden;
@@ -21,6 +21,10 @@ nav{
   
   li{
     margin-bottom: 1em;
+    
+    &:first-child{
+      margin-bottom: 4em;
+    }
     
     a{
       text-decoration: none;

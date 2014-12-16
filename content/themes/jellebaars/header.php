@@ -40,8 +40,8 @@
     $nav = array(
       'theme_location'  => 'main_menu',
       'container_class' => '',
-      'link_before'     => '<h2>',
-      'link_after'      => '</h2>',
+      'link_before'     => '<h4>',
+      'link_after'      => '</h4>',
       'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>'
     );
 

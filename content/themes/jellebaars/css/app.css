@@ -14410,7 +14410,7 @@ p.label   = 15px walsheim
 a 		  = 15px walsheim
 */
 /* line 11, ../sass/base/typo/_typography.scss */
-*, h1, h2, h3, p, a {
+*, h1, h2, h3, h4, p, a {
   font-family: 'NHaasGroteskTXStd-55Rg';
   font-weight: normal;
   font-style: normal;
@@ -14476,26 +14476,34 @@ h3 {
   line-height: 1.1; }
 
 /* line 95, ../sass/base/typo/_typography.scss */
+h4 {
+  font-family: 'NHaasGroteskTXStd-55Rg';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: white; }
+
+/* line 103, ../sass/base/typo/_typography.scss */
 p {
   font-size: 0.875rem; }
 
-/* line 101, ../sass/base/typo/_typography.scss */
+/* line 109, ../sass/base/typo/_typography.scss */
 a {
   font-size: 0.875rem;
   text-decoration: underline; }
-  /* line 107, ../sass/base/typo/_typography.scss */
+  /* line 115, ../sass/base/typo/_typography.scss */
   a:hover, a:active, a:visited {
     color: black; }
-  /* line 113, ../sass/base/typo/_typography.scss */
+  /* line 121, ../sass/base/typo/_typography.scss */
   a * {
     cursor: pointer; }
 
 @media only screen and (max-width: 62.5em) {
-  /* line 119, ../sass/base/typo/_typography.scss */
+  /* line 127, ../sass/base/typo/_typography.scss */
   html {
     font-size: 85%; } }
 @media only screen and (max-width: 31.25em) {
-  /* line 125, ../sass/base/typo/_typography.scss */
+  /* line 133, ../sass/base/typo/_typography.scss */
   h1 {
     font-size: 2.125rem; } }
 /* line 1, ../sass/layout/_grid.scss */
@@ -14624,7 +14632,7 @@ nav {
   left: 0;
   background: rgba(0, 0, 0, 0.85);
   width: 100%;
-  padding: 100px 70px;
+  padding: 100px 80px;
   opacity: 0;
   visibility: hidden;
   -moz-transform: translate3d(0, -50px, 0);
@@ -14655,18 +14663,21 @@ nav {
   nav li {
     margin-bottom: 1em; }
     /* line 25, ../sass/modules/navigation/_nav.scss */
+    nav li:first-child {
+      margin-bottom: 4em; }
+    /* line 29, ../sass/modules/navigation/_nav.scss */
     nav li a {
       text-decoration: none; }
-      /* line 28, ../sass/modules/navigation/_nav.scss */
+      /* line 32, ../sass/modules/navigation/_nav.scss */
       nav li a:hover {
         color: white;
         text-decoration: underline; }
-      /* line 33, ../sass/modules/navigation/_nav.scss */
+      /* line 37, ../sass/modules/navigation/_nav.scss */
       nav li a h2 {
         color: white; }
 
 @media only screen and (max-width: 31.25em) {
-  /* line 41, ../sass/modules/navigation/_nav.scss */
+  /* line 45, ../sass/modules/navigation/_nav.scss */
   nav {
     padding-left: 1.875rem;
     padding-right: 1.875rem; } }
