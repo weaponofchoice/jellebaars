@@ -1,0 +1,33 @@
+.case{
+  text-align: center;
+  
+  &.case-featured{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: rem-calc(100);
+  }
+  
+  img{
+    min-width: 100%; // TEMPORARY!
+  }
+  
+  .thumb, .gallery{
+    margin-bottom: rem-calc(30);
+  }
+  
+  // type of post(example: 'recent work')
+  > p{
+    margin-bottom: rem-calc(30);
+  }
+  
+  .case-info{
+    width: 80%;
+    max-width: rem-calc(550);
+    margin: auto;
+    
+    *{
+      margin-bottom: rem-calc(13);
+    }
+  }
+}

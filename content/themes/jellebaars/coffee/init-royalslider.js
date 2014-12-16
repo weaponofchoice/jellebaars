@@ -1,0 +1,1 @@
+(function(){var l;$(".royalSlider").length>0&&(l=$(".royalSlider"),l.royalSlider)}).call(this);

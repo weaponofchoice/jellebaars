@@ -1,0 +1,43 @@
+// Resets
+*{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	cursor: default;
+	line-height: 1;
+	
+	list-style: none;
+	text-decoration: none;
+	word-wrap: break-word;
+	
+	outline: none;
+	
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-backface-visibility: hidden;
+}
+
+html{
+  background: $white;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+ul, ol, dl{
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.heightfix{
+  height: auto;
+  overflow: hidden;
+}

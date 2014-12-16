@@ -1,0 +1,30 @@
+.closer{
+  width: rem-calc(32); // Same as logo's height
+  height: rem-calc(32);
+  position: absolute;
+  right: rem-calc(70);
+  visibility: hidden;
+  
+  *{
+    cursor: pointer;
+  }
+  
+  div{
+    width: rem-calc(5);
+    height: 100%;
+    right: rem-calc(14);
+    position: absolute;
+    background: $white;
+    @include transform(rotate(45deg));
+    
+    &:nth-child(2){
+      @include transform(rotate(-45deg));
+    }
+  }
+}
+
+@media #{$small-only}{
+  .closer{
+    right: rem-calc(25);
+  }
+}

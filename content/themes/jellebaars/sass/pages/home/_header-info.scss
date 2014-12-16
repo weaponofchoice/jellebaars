@@ -1,0 +1,17 @@
+.header-info{
+  height: auto;
+  overflow: hidden;
+  top: -2em; // To compensate the header's padding
+  z-index: $zIndex-headerInfo;
+  
+  p{
+    padding-left: rem-calc(30);
+    padding-right: rem-calc(30);
+  }
+}
+
+@media #{$small-only}{
+  .header-info{
+    display: none;
+  }
+}

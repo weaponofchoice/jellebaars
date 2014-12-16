@@ -1,0 +1,20 @@
+// Fonts is retrieved from the cloud of typography.com(see header.php)
+@mixin chronicle{
+	font-family: 'Chronicle Display A', 'Chronicle Display B';
+	font-weight: 400;
+	font-style: normal;
+	
+	&.bold{
+		font-weight: 700;
+	}
+}
+
+@mixin gotham{
+	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-weight: 400;
+	font-style: normal;
+	
+	&.bold{
+		font-weight: 700;
+	}
+}
