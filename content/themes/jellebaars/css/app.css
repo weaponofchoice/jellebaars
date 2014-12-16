@@ -14539,8 +14539,8 @@ a {
 /* line 1, ../sass/layout/_header.scss */
 header {
   width: 100%;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.4375rem;
+  padding-bottom: 0.4375rem;
   z-index: 900;
   background: white;
   opacity: .9; }
@@ -15226,20 +15226,21 @@ img.rsImg {
 
 /* line 1, ../sass/pages/home/_home.scss */
 .home {
-  padding-top: 1.875rem; }
+  padding-top: 3.75rem; }
 
 /* line 1, ../sass/pages/home/_header-info.scss */
 .header-info {
   height: auto;
   overflow: hidden;
   top: -2em;
-  z-index: 1000; }
-  /* line 7, ../sass/pages/home/_header-info.scss */
+  z-index: 1000;
+  margin-top: -2.1875rem; }
+  /* line 9, ../sass/pages/home/_header-info.scss */
   .header-info p {
     padding-left: 1.875rem;
     padding-right: 1.875rem; }
 
 @media only screen and (max-width: 31.25em) {
-  /* line 14, ../sass/pages/home/_header-info.scss */
+  /* line 16, ../sass/pages/home/_header-info.scss */
   .header-info {
     display: none; } }

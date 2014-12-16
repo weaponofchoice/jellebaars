@@ -1,1 +1,0 @@
-(function(){var i,n,t;$(".royalSlider").length>0&&(i=$(".royalSlider"),t=window.innerWidth,n=i.width(),i.css("height",n/2),$(window).on("resize",function(){return t=window.innerWidth,n=i.width(),i.css("height",n/2)}))}).call(this);

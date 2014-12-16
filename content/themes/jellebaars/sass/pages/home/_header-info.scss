@@ -4,6 +4,8 @@
   top: -2em; // To compensate the header's padding
   z-index: $zIndex-headerInfo;
   
+  margin-top: rem-calc(-35);
+  
   p{
     padding-left: rem-calc(30);
     padding-right: rem-calc(30);
