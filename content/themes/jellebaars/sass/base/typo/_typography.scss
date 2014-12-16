@@ -104,7 +104,9 @@ a{
 	font-size: rem-calc(14);
   text-decoration: underline;
 	
-	&:hover{
+	&:hover,
+  &:active,
+  &:visited{
 		color: $black;
 	}
   

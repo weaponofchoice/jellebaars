@@ -14484,18 +14484,18 @@ a {
   font-size: 0.875rem;
   text-decoration: underline; }
   /* line 107, ../sass/base/typo/_typography.scss */
-  a:hover {
+  a:hover, a:active, a:visited {
     color: black; }
-  /* line 111, ../sass/base/typo/_typography.scss */
+  /* line 113, ../sass/base/typo/_typography.scss */
   a * {
     cursor: pointer; }
 
 @media only screen and (max-width: 62.5em) {
-  /* line 117, ../sass/base/typo/_typography.scss */
+  /* line 119, ../sass/base/typo/_typography.scss */
   html {
     font-size: 85%; } }
 @media only screen and (max-width: 31.25em) {
-  /* line 123, ../sass/base/typo/_typography.scss */
+  /* line 125, ../sass/base/typo/_typography.scss */
   h1 {
     font-size: 2.125rem; } }
 /* line 1, ../sass/layout/_grid.scss */
