@@ -14457,10 +14457,9 @@ h1 {
   font-weight: normal;
   font-style: normal;
   font-size: 3.4375rem;
-  font-weight: 700;
   line-height: 1.1; }
 
-/* line 80, ../sass/base/typo/_typography.scss */
+/* line 79, ../sass/base/typo/_typography.scss */
 h2 {
   font-family: 'NHaasGroteskDSPro-75Bd';
   font-weight: normal;
@@ -14468,39 +14467,35 @@ h2 {
   font-size: 1.875rem;
   line-height: 1.1; }
 
-/* line 88, ../sass/base/typo/_typography.scss */
+/* line 87, ../sass/base/typo/_typography.scss */
 h3 {
   font-family: 'NHaasGroteskDSPro-75Bd';
   font-weight: normal;
   font-style: normal;
   font-size: 1.125rem;
-  font-weight: 700;
   line-height: 1.1; }
 
-/* line 97, ../sass/base/typo/_typography.scss */
+/* line 95, ../sass/base/typo/_typography.scss */
 p {
   font-size: 0.875rem; }
-  /* line 103, ../sass/base/typo/_typography.scss */
-  p.reading {
-    font-size: 1rem; }
 
-/* line 108, ../sass/base/typo/_typography.scss */
+/* line 101, ../sass/base/typo/_typography.scss */
 a {
   font-size: 0.875rem;
   text-decoration: underline; }
-  /* line 114, ../sass/base/typo/_typography.scss */
+  /* line 107, ../sass/base/typo/_typography.scss */
   a:hover {
     color: black; }
-  /* line 118, ../sass/base/typo/_typography.scss */
+  /* line 111, ../sass/base/typo/_typography.scss */
   a * {
     cursor: pointer; }
 
 @media only screen and (max-width: 62.5em) {
-  /* line 124, ../sass/base/typo/_typography.scss */
+  /* line 117, ../sass/base/typo/_typography.scss */
   html {
     font-size: 85%; } }
 @media only screen and (max-width: 31.25em) {
-  /* line 130, ../sass/base/typo/_typography.scss */
+  /* line 123, ../sass/base/typo/_typography.scss */
   h1 {
     font-size: 2.125rem; } }
 /* line 1, ../sass/layout/_grid.scss */
@@ -14544,8 +14539,8 @@ a {
 /* line 1, ../sass/layout/_header.scss */
 header {
   width: 100%;
-  padding-top: 0.8125rem;
-  padding-bottom: 0.8125rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   z-index: 900;
   background: white;
   opacity: .9; }
@@ -14612,7 +14607,7 @@ article {
     margin-bottom: 1.875rem; }
   /* line 24, ../sass/modules/_case.scss */
   .case .case-info {
-    width: 80%;
+    width: 50%;
     max-width: 34.375rem;
     margin: auto; }
     /* line 29, ../sass/modules/_case.scss */
@@ -14658,48 +14653,39 @@ nav {
   nav li {
     margin-bottom: 1em; }
     /* line 25, ../sass/modules/navigation/_nav.scss */
-    nav li:first-child {
-      margin-bottom: 4em; }
-    /* line 29, ../sass/modules/navigation/_nav.scss */
-    nav li:last-child {
-      margin-top: 4em; }
-    /* line 33, ../sass/modules/navigation/_nav.scss */
     nav li a {
       text-decoration: none; }
-      /* line 36, ../sass/modules/navigation/_nav.scss */
+      /* line 28, ../sass/modules/navigation/_nav.scss */
       nav li a:hover {
         color: white;
         text-decoration: underline; }
-      /* line 41, ../sass/modules/navigation/_nav.scss */
+      /* line 33, ../sass/modules/navigation/_nav.scss */
       nav li a h2 {
         color: white; }
 
 @media only screen and (max-width: 31.25em) {
-  /* line 49, ../sass/modules/navigation/_nav.scss */
+  /* line 41, ../sass/modules/navigation/_nav.scss */
   nav {
     padding-left: 1.875rem;
     padding-right: 1.875rem; } }
-/* line 1, ../sass/modules/navigation/_logo.scss */
-header {
-  display: flex; }
-  /* line 4, ../sass/modules/navigation/_logo.scss */
-  header .logo {
-    max-height: 1.5625rem; }
-    /* line 7, ../sass/modules/navigation/_logo.scss */
-    header .logo img {
-      max-height: 3.75rem; }
-    /* line 11, ../sass/modules/navigation/_logo.scss */
-    header .logo.logo-black {
-      display: inline; }
-    /* line 15, ../sass/modules/navigation/_logo.scss */
-    header .logo.logo-white {
-      display: none; }
-  /* line 21, ../sass/modules/navigation/_logo.scss */
-  header.menu-active .logo-black {
-    display: none; }
-  /* line 25, ../sass/modules/navigation/_logo.scss */
-  header.menu-active .logo-white {
+/* line 2, ../sass/modules/navigation/_logo.scss */
+header .logo {
+  max-height: 1.5625rem; }
+  /* line 5, ../sass/modules/navigation/_logo.scss */
+  header .logo img {
+    max-height: 3.125rem; }
+  /* line 9, ../sass/modules/navigation/_logo.scss */
+  header .logo.logo-black {
     display: inline; }
+  /* line 13, ../sass/modules/navigation/_logo.scss */
+  header .logo.logo-white {
+    display: none; }
+/* line 19, ../sass/modules/navigation/_logo.scss */
+header.menu-active .logo-black {
+  display: none; }
+/* line 23, ../sass/modules/navigation/_logo.scss */
+header.menu-active .logo-white {
+  display: inline; }
 
 /* line 1, ../sass/modules/navigation/_hamburger.scss */
 .hamburger {
@@ -14707,6 +14693,9 @@ header {
   height: 1.5625rem;
   position: absolute;
   right: 4.375rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   opacity: 1;
   visibility: visible;
   -moz-transform: translate3d(0, 0, 0);
@@ -14719,10 +14708,10 @@ header {
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s; }
-  /* line 12, ../sass/modules/navigation/_hamburger.scss */
+  /* line 16, ../sass/modules/navigation/_hamburger.scss */
   .hamburger * {
     cursor: pointer; }
-  /* line 16, ../sass/modules/navigation/_hamburger.scss */
+  /* line 20, ../sass/modules/navigation/_hamburger.scss */
   .hamburger div {
     width: 95%;
     height: 16%;
@@ -14734,21 +14723,21 @@ header {
     transform: translateY(-50%);
     position: absolute;
     background: #222222; }
-    /* line 24, ../sass/modules/navigation/_hamburger.scss */
+    /* line 28, ../sass/modules/navigation/_hamburger.scss */
     .hamburger div:before, .hamburger div:after {
       content: "";
       width: 100%;
       height: 100%;
       background: #222222;
       position: absolute; }
-    /* line 33, ../sass/modules/navigation/_hamburger.scss */
+    /* line 37, ../sass/modules/navigation/_hamburger.scss */
     .hamburger div:before {
       top: -250%; }
-    /* line 37, ../sass/modules/navigation/_hamburger.scss */
+    /* line 41, ../sass/modules/navigation/_hamburger.scss */
     .hamburger div:after {
       bottom: -250%; }
 
-/* line 44, ../sass/modules/navigation/_hamburger.scss */
+/* line 48, ../sass/modules/navigation/_hamburger.scss */
 .home .hamburger {
   opacity: 0;
   visibility: hidden;
@@ -14762,7 +14751,7 @@ header {
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s; }
-  /* line 50, ../sass/modules/navigation/_hamburger.scss */
+  /* line 54, ../sass/modules/navigation/_hamburger.scss */
   .home .hamburger.show {
     opacity: 1;
     visibility: visible;
@@ -14778,7 +14767,7 @@ header {
     transition: 0.4s; }
 
 @media only screen and (max-width: 31.25em) {
-  /* line 60, ../sass/modules/navigation/_hamburger.scss */
+  /* line 64, ../sass/modules/navigation/_hamburger.scss */
   .hamburger {
     right: 1.5625rem; } }
 /* line 1, ../sass/modules/navigation/_closer.scss */
@@ -14787,11 +14776,14 @@ header {
   height: 2rem;
   position: absolute;
   right: 4.375rem;
-  visibility: hidden; }
-  /* line 8, ../sass/modules/navigation/_closer.scss */
+  visibility: hidden;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+  /* line 12, ../sass/modules/navigation/_closer.scss */
   .closer * {
     cursor: pointer; }
-  /* line 12, ../sass/modules/navigation/_closer.scss */
+  /* line 16, ../sass/modules/navigation/_closer.scss */
   .closer div {
     width: 0.3125rem;
     height: 100%;
@@ -14803,7 +14795,7 @@ header {
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
-    /* line 20, ../sass/modules/navigation/_closer.scss */
+    /* line 24, ../sass/modules/navigation/_closer.scss */
     .closer div:nth-child(2) {
       -moz-transform: rotate(-45deg);
       -o-transform: rotate(-45deg);
@@ -14812,7 +14804,7 @@ header {
       transform: rotate(-45deg); }
 
 @media only screen and (max-width: 31.25em) {
-  /* line 27, ../sass/modules/navigation/_closer.scss */
+  /* line 31, ../sass/modules/navigation/_closer.scss */
   .closer {
     right: 1.5625rem; } }
 /* line 1, ../sass/modules/navigation/_overlay.scss */

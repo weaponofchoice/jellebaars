@@ -4,6 +4,10 @@
   position: absolute;
   right: rem-calc(70);
   
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  
 	opacity: 1;
 	visibility: visible;
 	@include transform(translate3d(0,0,0));

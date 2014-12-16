@@ -73,7 +73,6 @@ h1{
   @include NHaasGroteskDSPro-75Bd;
 	
 	font-size: rem-calc(55);
-  font-weight: 700;
 	line-height: 1.1;
 }
 
@@ -90,7 +89,6 @@ h3{
   @include NHaasGroteskDSPro-75Bd;
   
   font-size: rem-calc(18);
-  font-weight: 700;
   line-height: 1.1;
 }
 
@@ -98,11 +96,6 @@ p{
 	@extend %base;
 	
 	font-size: rem-calc(14);
-	
-	// Read text for brand stories and blog posts
-	&.reading{
-		font-size: rem-calc(16);
-	}
 }
 
 a{

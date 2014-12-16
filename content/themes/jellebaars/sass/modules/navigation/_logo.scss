@@ -1,11 +1,9 @@
 header{
-  display: flex;
-  
   .logo{
     max-height: rem-calc(25);
     
     img{
-      max-height: rem-calc(60);
+      max-height: rem-calc(50);
     }
     
     &.logo-black{

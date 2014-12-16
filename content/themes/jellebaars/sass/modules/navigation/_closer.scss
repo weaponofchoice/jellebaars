@@ -5,6 +5,10 @@
   right: rem-calc(70);
   visibility: hidden;
   
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  
   *{
     cursor: pointer;
   }
