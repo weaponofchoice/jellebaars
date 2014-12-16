@@ -14415,7 +14415,7 @@ a 		  = 15px walsheim
   font-weight: normal;
   font-style: normal;
   margin: 0;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   color: #222222; }
   /* line 21, ../sass/base/typo/_typography.scss */
   .italic {
@@ -14465,7 +14465,7 @@ h2 {
   font-family: 'NHaasGroteskDSPro-75Bd';
   font-weight: normal;
   font-style: normal;
-  font-size: 2.5rem;
+  font-size: 1.875rem;
   line-height: 1.1; }
 
 /* line 88, ../sass/base/typo/_typography.scss */
@@ -14473,20 +14473,20 @@ h3 {
   font-family: 'NHaasGroteskDSPro-75Bd';
   font-weight: normal;
   font-style: normal;
-  font-size: 1.75rem;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.1; }
 
 /* line 97, ../sass/base/typo/_typography.scss */
 p {
-  font-size: 0.8125rem; }
+  font-size: 0.875rem; }
   /* line 103, ../sass/base/typo/_typography.scss */
   p.reading {
-    font-size: 0.9375rem; }
+    font-size: 1rem; }
 
 /* line 108, ../sass/base/typo/_typography.scss */
 a {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   text-decoration: underline; }
   /* line 114, ../sass/base/typo/_typography.scss */
   a:hover {
@@ -14679,24 +14679,27 @@ nav {
   nav {
     padding-left: 1.875rem;
     padding-right: 1.875rem; } }
-/* line 2, ../sass/modules/navigation/_logo.scss */
-header .logo {
-  max-height: 1.5625rem; }
-  /* line 5, ../sass/modules/navigation/_logo.scss */
-  header .logo img {
-    max-height: 2.5rem; }
-  /* line 9, ../sass/modules/navigation/_logo.scss */
-  header .logo.logo-black {
-    display: inline; }
-  /* line 13, ../sass/modules/navigation/_logo.scss */
-  header .logo.logo-white {
+/* line 1, ../sass/modules/navigation/_logo.scss */
+header {
+  display: flex; }
+  /* line 4, ../sass/modules/navigation/_logo.scss */
+  header .logo {
+    max-height: 1.5625rem; }
+    /* line 7, ../sass/modules/navigation/_logo.scss */
+    header .logo img {
+      max-height: 3.75rem; }
+    /* line 11, ../sass/modules/navigation/_logo.scss */
+    header .logo.logo-black {
+      display: inline; }
+    /* line 15, ../sass/modules/navigation/_logo.scss */
+    header .logo.logo-white {
+      display: none; }
+  /* line 21, ../sass/modules/navigation/_logo.scss */
+  header.menu-active .logo-black {
     display: none; }
-/* line 19, ../sass/modules/navigation/_logo.scss */
-header.menu-active .logo-black {
-  display: none; }
-/* line 23, ../sass/modules/navigation/_logo.scss */
-header.menu-active .logo-white {
-  display: inline; }
+  /* line 25, ../sass/modules/navigation/_logo.scss */
+  header.menu-active .logo-white {
+    display: inline; }
 
 /* line 1, ../sass/modules/navigation/_hamburger.scss */
 .hamburger {
