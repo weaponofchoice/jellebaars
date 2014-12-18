@@ -66,6 +66,7 @@ a 		  = 15px walsheim
 
 *{
 	@extend %base;
+  word-wrap: normal;
 }
 
 h1{

@@ -14451,7 +14451,11 @@ a 		  = 15px walsheim
     .text-grey:hover, .text-grey:active {
       color: #969696; }
 
-/* line 71, ../sass/base/typo/_typography.scss */
+/* line 67, ../sass/base/typo/_typography.scss */
+* {
+  word-wrap: normal; }
+
+/* line 72, ../sass/base/typo/_typography.scss */
 h1 {
   font-family: 'NHaasGroteskDSPro-75Bd';
   font-weight: normal;
@@ -14459,7 +14463,7 @@ h1 {
   font-size: 3.4375rem;
   line-height: 1.1; }
 
-/* line 79, ../sass/base/typo/_typography.scss */
+/* line 80, ../sass/base/typo/_typography.scss */
 h2 {
   font-family: 'NHaasGroteskDSPro-75Bd';
   font-weight: normal;
@@ -14467,7 +14471,7 @@ h2 {
   font-size: 1.875rem;
   line-height: 1.1; }
 
-/* line 87, ../sass/base/typo/_typography.scss */
+/* line 88, ../sass/base/typo/_typography.scss */
 h3 {
   font-family: 'NHaasGroteskDSPro-75Bd';
   font-weight: normal;
@@ -14475,7 +14479,7 @@ h3 {
   font-size: 1.125rem;
   line-height: 1.1; }
 
-/* line 95, ../sass/base/typo/_typography.scss */
+/* line 96, ../sass/base/typo/_typography.scss */
 h4 {
   font-family: 'NHaasGroteskTXStd-55Rg';
   font-weight: normal;
@@ -14483,27 +14487,27 @@ h4 {
   font-size: 1.25rem;
   color: white; }
 
-/* line 103, ../sass/base/typo/_typography.scss */
+/* line 104, ../sass/base/typo/_typography.scss */
 p {
   font-size: 0.875rem; }
 
-/* line 109, ../sass/base/typo/_typography.scss */
+/* line 110, ../sass/base/typo/_typography.scss */
 a {
   font-size: 0.875rem;
   text-decoration: underline; }
-  /* line 115, ../sass/base/typo/_typography.scss */
+  /* line 116, ../sass/base/typo/_typography.scss */
   a:hover, a:active, a:visited {
     color: black; }
-  /* line 121, ../sass/base/typo/_typography.scss */
+  /* line 122, ../sass/base/typo/_typography.scss */
   a * {
     cursor: pointer; }
 
 @media only screen and (max-width: 62.5em) {
-  /* line 127, ../sass/base/typo/_typography.scss */
+  /* line 128, ../sass/base/typo/_typography.scss */
   html {
     font-size: 85%; } }
 @media only screen and (max-width: 31.25em) {
-  /* line 133, ../sass/base/typo/_typography.scss */
+  /* line 134, ../sass/base/typo/_typography.scss */
   h1 {
     font-size: 2.125rem; } }
 /* line 1, ../sass/layout/_grid.scss */
