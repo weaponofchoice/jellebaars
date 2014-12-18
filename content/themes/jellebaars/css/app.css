@@ -14525,6 +14525,11 @@ a {
       height: 100%;
       background: rgba(0, 0, 0, 0.3); }
 
+@media only screen and (max-width: 31.25em) {
+  /* line 19, ../sass/layout/_grid.scss */
+  [class*="block-grid-"] > li {
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
 /* line 1, ../sass/layout/_structure.scss */
 #container, header, footer {
   padding-left: 4.375rem;
@@ -15249,6 +15254,11 @@ img.rsImg {
   .rsDefault .rsBullets .rsNavSelected span {
     background-color: white; }
 
+@media only screen and (max-width: 31.25em) {
+  /* line 97, ../sass/modules/gallery/_rs-default.scss */
+  .rsDefault .rsArrow {
+    width: 1.25rem;
+    height: 1.25rem; } }
 /* line 1, ../sass/pages/home/_home.scss */
 .home {
   padding-top: 3.75rem; }

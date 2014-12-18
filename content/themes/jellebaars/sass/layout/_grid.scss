@@ -14,3 +14,10 @@
     }
   }
 }
+
+@media #{$small-only}{
+  [class*="block-grid-"] > li{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
