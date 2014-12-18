@@ -11,6 +11,6 @@ if $('.royalSlider').length > 0
     loop: true,
     transitionSpeed: 200,
     controlNavigation: 'bullets',
-    arrowsNavHideOnTouch: true,
+    arrowsNavHideOnTouch: false,
     transitionType: 'fade',
     autoHeight: true
